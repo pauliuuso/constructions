@@ -1,0 +1,17 @@
+.main-menu
+{
+    height: 50px;
+    background: lightslategray;
+    color: white;
+
+    .main-menu-links
+    {
+        float: right;
+
+        li
+        {
+            display: inline-block;
+        }
+    }
+
+}

@@ -1,7 +1,7 @@
 
-        <footer class="constructions-footer">
+        <!-- <footer class="constructions-footer">
             <p><?php echo Date('Y'); ?> - <?php bloginfo('name') ?></p>
-        </footer>
+        </footer> -->
 
         <?php wp_footer(); ?>
 
