@@ -4,24 +4,41 @@
 
     <div class="row">
 
-        <div id="construction-home" class="col-12 construction-home">
-            <h2 class="mt-5">Home</h2>
-        </div>
+        <section id="construction-about" class="col-12 construction-about snap section">
+            <div class="row">
+                <div class="col-12">
+                    <img alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/logo.png">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-lg-8">
+                    <h4 class="text-big text-font-light">Statybų ekspertai – daugiau nei 15 metų sėkmingai dirbanti statybos bendrovė. Pagrindinės veiklos sritys – visuomeninės, komercinės ir gamybinės paskirties pastatų statyba ir rekonstrukcija, bei individualių namų statyba.
+                    </h4>
+                </div>
+                <div class="offset-sm-6 offset-lg-0 col-12 col-sm-6 col-lg-4 pt-5 mt-5 mb-5">
+                    <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/about_background.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-medium text-font-bold mr-5">
+                        <span class="mr-5">+3706 000000</span>
+                        <span>info@statybuekspertai.lt</span>
+                    </p>
+                </div>
+            </div>
 
-        <div id="construction-about" class="col-12 construction-about snap">
-            <p class="scroll-top pointer" onclick="ScrollTo('#main-menu');">UP</p>
-            <h2 class="mt-5">About</h2>
-        </div>
+        </section>
 
-        <div id="construction-gallery" class="col-12 construction-gallery snap">
+        <section id="construction-gallery" class="col-12 construction-gallery snap">
             <p class="scroll-top pointer" onclick="ScrollTo('#main-menu');">UP</p>
             <h2 class="mt-5">Gallery</h2>
-        </div>
+        </section>
 
-        <div id="construction-contacts" class="col-12 construction-contacts snap">
+        <section id="construction-contacts" class="col-12 construction-contacts snap">
             <p class="scroll-top pointer" onclick="ScrollTo('#main-menu');">UP</p>
             <h2 class="mt-5">Contacts</h2>
-        </div>
+        </section>
 
     </div>
 

@@ -1,0 +1,58 @@
+/*
+Theme Name: Statybų Ekspertai
+Author: webwarriors.lt
+Description: Theme for UAB Statybu Ekspertai
+Version: 1.0
+Text Domain: statybuekspertai
+*/
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1440px,
+        xl: 1920px
+);
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Core variables and mixins
+@import "../../../../node_modules/bootstrap/scss/variables.scss";
+@import "../../../../node_modules/bootstrap/scss/mixins.scss";
+
+// Reset and dependencies
+@import "../../../../node_modules/bootstrap/scss/normalize.scss";
+
+// Core CSS
+@import "../../../../node_modules/bootstrap/scss/images.scss";
+@import "../../../../node_modules/bootstrap/scss/grid.scss";
+@import "../../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+// Utilities
+@import "../../../../node_modules/bootstrap/scss/utilities.scss";
+
+/* Bootstrap import end */
+
+@import "./core/fonts";
+@import "./core/variables";
+
+@import "./sections/about";
+@import "./sections/contacts";
+@import "./sections/gallery";
+@import "./sections/menu";
+@import "./sections/various";
+@import "./sections/main";
+
+body, html
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+p, span, h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    color: $blue;
+}
+
+

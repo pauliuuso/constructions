@@ -1,0 +1,29 @@
+section {
+  padding: 64px 128px !important;
+
+  @include media-breakpoint-down(lg) {
+    padding: 15px !important;
+  }
+}
+
+.text-big {
+  font-size: 44px;
+  line-height: 51px;
+
+  @include media-breakpoint-down(lg) {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+.text-medium {
+  font-size: 32px;
+}
+
+.text-font-light {
+  font-weight: 300;
+}
+
+.text-font-bold {
+  font-weight: 600;
+}
