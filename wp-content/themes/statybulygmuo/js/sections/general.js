@@ -1,11 +1,12 @@
 $(document).ready(function()
 {
-    // SetHeights();
-
+    SetHeights();
 
     function SetHeights()
     {
-        var $screenHeight = $(document).height();
+        console.log('set height');
+
+        var $screenHeight = $(window).height();
 
         $("#construction-about").css("height", $screenHeight + "px");
         $("#construction-gallery").css("height", $screenHeight + "px");

@@ -1,5 +1,19 @@
+body, html
+{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+p, span, h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  color: $blue;
+}
+
 section {
   padding: 64px 128px !important;
+  position: relative;
+  overflow: hidden;
 
   @include media-breakpoint-down(lg) {
     padding: 15px !important;

@@ -1,5 +1,29 @@
-.construction-about
-{
+.construction-about {
     background: white;
     position: relative;
+
+    .about-text-wrapper {
+        z-index: 10;
+    }
+
+    .about-house-wrapper {
+        position: absolute;
+        bottom: 30px;
+        right: 120px;
+        z-index: 1;
+
+        @include media-breakpoint-down(lg) {
+            right: 15px !important;
+        }
+    }
+
+    .about-contacts-wrapper {
+        position: absolute;
+        bottom: 0;
+        background: white;
+        z-index: 10;
+        padding: 0 15px;
+        width: 100%;
+    }
+
 }

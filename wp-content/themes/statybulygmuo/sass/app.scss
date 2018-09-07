@@ -42,17 +42,3 @@ $grid-breakpoints: (
 @import "./sections/menu";
 @import "./sections/various";
 @import "./sections/main";
-
-body, html
-{
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
-p, span, h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
-    color: $blue;
-}
-
-
