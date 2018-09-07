@@ -4,7 +4,7 @@
 
     <div class="row">
 
-        <section id="construction-about" class="col-12 construction-about snap section">
+        <section id="construction-about" class="col-12 construction-about section">
             <div class="row">
                 <div class="col-12">
                     <img alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/logo.png">
@@ -25,21 +25,37 @@
                     <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/about_background.png">
                 </div>
             </div>
-<!--            <div class="row">-->
-<!--                <div class="col-12">-->
-<!--                    <p class="text-medium text-font-bold mr-5">-->
-<!--                        <span class="mr-5">+3706 000000</span>-->
-<!--                        <span>info@statybuekspertai.lt</span>-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-
 
         </section>
 
         <section id="construction-gallery" class="col-12 construction-gallery snap">
-            <p class="scroll-top pointer" onclick="ScrollTo('#main-menu');">UP</p>
-            <h2 class="mt-5">Gallery</h2>
+
+            <div class="frame"></div>
+
+            <?php if(have_posts()) : ?>
+
+                <?php
+                    global $post;
+                    $args = ['category' => 'products'];
+                    $posts = get_posts($args);
+
+                    foreach($posts as $post): setup_postdata($post)
+                ?>
+                    <div class="col-4">
+                        <div>
+                            <?php if(has_post_thumbnail()) : ?>
+                                <img src="<?php the_post_thumbnail_url(); ?>" class="img-fluid">
+                            <?php endif; ?>
+                        </div>
+                        <div>
+                            <?php the_title(); ?>
+                            <?php the_excerpt(); ?>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+
+            <?php endif; ?>
+
         </section>
 
         <section id="construction-contacts" class="col-12 construction-contacts snap">

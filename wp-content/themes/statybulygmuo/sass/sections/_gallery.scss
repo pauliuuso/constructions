@@ -1,4 +1,19 @@
-.construction-gallery
-{
-    background: lightgray;
+.construction-gallery {
+    padding: 128px 128px !important;
+    position: relative;
+    overflow: hidden;
+    background: white;
+
+    @include media-breakpoint-down(lg) {
+        padding: 15px !important;
+    }
+
+    .frame {
+        position: absolute;
+        top: 128px;
+        left: 128px;
+        right: 128px;
+        bottom: 128px;
+        border: solid 3px #1d6c97;
+    }
 }

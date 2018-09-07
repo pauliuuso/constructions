@@ -1,6 +1,13 @@
 .construction-about {
-    background: white;
+
+    padding: 64px 128px !important;
     position: relative;
+    overflow: hidden;
+    background: white;
+
+    @include media-breakpoint-down(lg) {
+      padding: 15px !important;
+    }
 
     .about-text-wrapper {
         z-index: 10;
@@ -9,7 +16,7 @@
     .about-house-wrapper {
         position: absolute;
         bottom: 30px;
-        right: 120px;
+        right: 128px;
         z-index: 1;
 
         @include media-breakpoint-down(lg) {
