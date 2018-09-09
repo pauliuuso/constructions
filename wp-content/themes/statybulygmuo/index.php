@@ -90,8 +90,30 @@
         </section>
 
         <section id="construction-contacts" class="col-12 construction-contacts snap">
-            <p class="scroll-top pointer" onclick="ScrollTo('#main-menu');">UP</p>
-            <h2 class="mt-5">Contacts</h2>
+
+            <div class="frame"></div>
+
+            <div class="row contacts-form-wrapper mb-5">
+                <div class="col-12 col-md-5 offset-md-1">
+                    <h4 class="text-big">Susisiekite su mumis!</h4>
+                    <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+
+            <div class="contacts-menu-wrapper pl-3 pr-3">
+                <h4 class="mr-3 pointer">Apie</h4>
+                <h4 class="mr-3 pb-1 pointer">Sėkmės istorijos</h4>
+                <h4 class="pointer active">Kontaktai</h4>
+            </div>
+
+            <div class="contacts-info-wrapper">
+                <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
+                <h2 class="text-big text-uppercase mt-5 pr-4">Kontaktai</h2>
+            </div>
+
         </section>
 
     </div>

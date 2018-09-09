@@ -4,13 +4,12 @@ $(document).ready(function()
 
     function SetHeights()
     {
-        console.log('set height');
 
         var $screenHeight = $(window).height();
 
-        $("#construction-about").css("height", $screenHeight + "px");
-        $("#construction-gallery").css("height", $screenHeight + "px");
-        $("#construction-contacts").css("height", $screenHeight + "px");
+        $("#construction-about").css("min-height", $screenHeight + "px");
+        $("#construction-gallery").css("min-height", $screenHeight + "px");
+        $("#construction-contacts").css("min-height", $screenHeight + "px");
     }
 
     $(document).scrollsnap({

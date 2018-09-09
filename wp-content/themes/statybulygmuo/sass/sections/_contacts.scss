@@ -1,4 +1,96 @@
 .construction-contacts
 {
-    background: lightgreen;
+    padding: 50px 128px 128px !important;
+    position: relative;
+    overflow: hidden;
+    background: white;
+
+    .frame {
+        position: absolute;
+        top: 0;
+        left: 128px;
+        right: 128px;
+        bottom: 80px;
+        border-bottom: solid 3px $blue;
+        border-left: solid 3px $blue;
+        border-right: solid 3px $blue;
+    }
+
+    .contacts-form-wrapper {
+
+        form {
+
+            span, label {
+                width: 100%;
+            }
+
+            input {
+                height: 45px;
+                border: 1px solid $blue;
+                width: 100%;
+                padding: 0 15px;
+            }
+
+            textarea {
+                border: 1px solid $blue;
+                width: 100%;
+                padding: 15px;
+            }
+
+            input[type=submit] {
+                background: white;
+                width: 280px !important;
+                border: 1px solid $blue;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 27px;
+                color: $blue;
+                cursor: pointer;
+            }
+
+            .ajax-loader {
+                display: none;
+            }
+
+        }
+
+    }
+
+    .contacts-menu-wrapper {
+        position: absolute;
+        right: 245px;
+        bottom: 55px;
+        background: white;
+        z-index: 2;
+
+        h4 {
+            display: inline-block;
+            color: $blue;
+            text-transform: uppercase;
+
+            &.active {
+                border-bottom: solid 3px $blue;
+            }
+        }
+    }
+
+    .contacts-info-wrapper {
+        position: absolute;
+        left: 145px;
+        bottom: 40px;
+        background: white;
+        z-index: 2;
+
+        img {
+            float: left;
+            display: inline-block;
+        }
+
+        h2 {
+            display: inline-block;
+            color: $blue;
+            mso-line-spacing: normal;
+        }
+    }
+
 }
