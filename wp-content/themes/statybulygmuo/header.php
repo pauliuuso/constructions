@@ -14,6 +14,7 @@
         <script src="<?php bloginfo('template_url'); ?>/js/core/jquery.easing.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/js/core/jquery.scrollsnap.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/js/core/jquery.scrollstop.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/js/core/slick.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/js/sections/general.js"></script>
         <title>
             <?php bloginfo('name'); ?>

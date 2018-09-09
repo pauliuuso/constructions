@@ -1,5 +1,5 @@
 .construction-gallery {
-    padding: 128px 128px !important;
+    padding: 210px 128px 128px !important;
     position: relative;
     overflow: hidden;
     background: white;
@@ -10,10 +10,142 @@
 
     .frame {
         position: absolute;
-        top: 128px;
+        top: 80px;
         left: 128px;
         right: 128px;
-        bottom: 128px;
-        border: solid 3px #1d6c97;
+        bottom: 0;
+        border-top: solid 3px $blue;
+        border-left: solid 3px $blue;
+        border-right: solid 3px $blue;
     }
+
+    .gallery-info-wrapper {
+        position: absolute;
+        left: 145px;
+        top: 10px;
+        background: white;
+        z-index: 2;
+
+        img {
+            float: left;
+            display: inline-block;
+        }
+
+        h2 {
+            display: inline-block;
+            color: $blue;
+            mso-line-spacing: normal;
+        }
+    }
+
+    .gallery-menu-wrapper {
+        position: absolute;
+        right: 245px;
+        top: 70px;
+        background: white;
+        z-index: 2;
+
+        h4 {
+            display: inline-block;
+            color: $blue;
+            text-transform: uppercase;
+
+            &.active {
+                border-bottom: solid 3px $blue;
+            }
+        }
+    }
+
+    .gallery-main-wrapper {
+
+        .slick-slider {
+
+            .slick-prev {
+                width: 200px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 500px;
+                z-index: 15;
+                opacity: 0.001;
+                cursor: pointer;
+            }
+
+            .slick-next {
+                width: 200px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 500px;
+                z-index: 15;
+                opacity: 0.001;
+                cursor: pointer;
+            }
+
+            .slick-dots {
+                position: absolute;
+                top: -40px;
+                width: 100%;
+                text-align: center;
+
+                li {
+                    display: inline-block !important;
+                    border: solid 3px $blue;
+                    border-radius: 50%;
+                    width: 15px;
+                    height: 15px;
+                    margin: 5px;
+                    cursor: pointer;
+
+                    &.slick-active {
+                        background: $blue;
+                    }
+
+                    button {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .gallery-item-wrapper {
+            display: inline-block;
+            width: 1100px;
+            position: relative;
+            outline: none;
+            text-outline: none;
+
+            .curtain {
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 500px;
+                background: white;
+                opacity: 0.5;
+                z-index: 10;
+                position: absolute;
+                -webkit-transition: opacity 1s;
+            }
+
+            &.slick-current {
+                .curtain {
+                    opacity: 0;
+                }
+                .gallery-item-info-wrapper {
+                    visibility: visible;
+                }
+            }
+
+            .gallery-item-image {
+                height: 500px;
+            }
+
+            .gallery-item-info-wrapper {
+                visibility: hidden;
+            }
+        }
+    }
+
+
+
 }

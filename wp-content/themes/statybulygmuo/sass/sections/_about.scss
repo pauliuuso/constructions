@@ -5,12 +5,59 @@
     overflow: hidden;
     background: white;
 
+    .about-logo-wrapper {
+        position: absolute;
+        background: white;
+        top: 10px;
+        left: 160px;
+
+        img {
+            float: left;
+            display: inline-block;
+        }
+
+        h2 {
+            display: inline-block;
+            color: $blue;
+            mso-line-spacing: normal;
+        }
+    }
+
+    .about-menu-wrapper {
+        position: absolute;
+        right: 245px;
+        top: 70px;
+        background: white;
+        z-index: 2;
+
+        h4 {
+            display: inline-block;
+            color: $blue;
+            text-transform: uppercase;
+
+            &.active {
+                border-bottom: solid 3px $blue;
+            }
+        }
+    }
+
+    .frame {
+        position: absolute;
+        top: 80px;
+        left: 128px;
+        right: 128px;
+        bottom: 50px;
+        border: solid 3px $blue;
+    }
+
     @include media-breakpoint-down(lg) {
       padding: 15px !important;
     }
 
     .about-text-wrapper {
         z-index: 10;
+        margin-top: 200px;
+        line-height: 1.19;
     }
 
     .about-house-wrapper {
@@ -26,11 +73,11 @@
 
     .about-contacts-wrapper {
         position: absolute;
-        bottom: 0;
+        bottom: 10px;
+        left: 160px;
         background: white;
         z-index: 10;
         padding: 0 15px;
-        width: 100%;
     }
 
 }

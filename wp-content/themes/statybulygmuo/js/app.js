@@ -5,5 +5,6 @@ import './core/fontawesome_v5.0.6';
 import './core/jquery.easing.min';
 import './core/jquery.scrollstop';
 import './core/jquery.scrollsnap';
+import './core/slick.min';
 
 import './sections/general';
