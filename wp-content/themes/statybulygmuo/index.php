@@ -6,35 +6,28 @@
 
         <section id="construction-about" class="col-12 construction-about section">
 
-            <div class="frame"></div>
-
-            <div class="about-logo-wrapper pl-4">
-                <img alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                <h2 class="text-big text-uppercase ml-4 mt-5 pr-4">Apie</h2>
-            </div>
-
-            <div class="about-menu-wrapper pl-3 pr-3">
-                <h4 class="mr-3 pointer pb-1 active">Apie</h4>
-                <h4 class="mr-3">Sėkmės istorijos</h4>
-                <h4 class="pointer">Kontaktai</h4>
-            </div>
-
-            <div class="row">
-
-                <div class="col-12 col-lg-6 about-text-wrapper pl-5">
-                    <h4 class="text-bigger-2 text-font-light ml-3">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas. Pagrindinės veiklos sritys –individualių namų statyba, visuomeninės, komercinės ir gamybinės paskirties pastatų statyba ir rekonstrukcija bei apdailos darbai.
-                    </h4>
+            <div class="frame">
+                <div class="about-logo-wrapper pl-sm-4">
+                    <img alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
+                    <h2 class="text-big text-uppercase ml-4 mt-5 pr-4">Apie</h2>
                 </div>
 
-                <div class="about-contacts-wrapper">
-                    <p class="text-bigger pl-4 pr-4">
-                        <span class="mr-5">+3706 000000</span>
+                <div class="about-menu-wrapper pl-3 pr-3">
+                    <h4 class="mr-md-3 pointer pb-1 active">Apie</h4>
+                    <h4 class="mr-md-3">Sėkmės istorijos</h4>
+                    <h4 class="pointer">Kontaktai</h4>
+                </div>
+
+                <div class="col-12">
+                    <div class="col-12 about-text-wrapper">
+                    </div>
+                </div>
+
+                <div class="about-contacts-wrapper text-center text-sm-left">
+                    <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">
+                        <span class="mr-3 mr-md-5">+3706 000000</span>
                         <span>info@statybuekspertai.lt</span>
                     </p>
-                </div>
-
-                <div class="col-12 col-md-6 offset-lg-1 col-lg-5 pt-5 mt-5 mb-5 about-house-wrapper">
-                    <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/about_background.png">
                 </div>
 
             </div>
