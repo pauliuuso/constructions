@@ -24,57 +24,6 @@
             border: none;
         }
 
-
-        .about-logo-wrapper {
-            position: absolute;
-            background: white;
-            top: -67px;
-            left: 20px;
-
-            img {
-                float: left;
-                display: inline-block;
-            }
-
-            h2 {
-                display: inline-block;
-                color: $blue;
-                mso-line-spacing: normal;
-            }
-
-            @include media-breakpoint-down(sm) {
-                left: 0;
-            }
-
-        }
-
-        .about-menu-wrapper {
-            position: absolute;
-            right: 20px;
-            top: -17px;
-            background: white;
-            z-index: 2;
-
-            h4 {
-                display: inline-block;
-                color: $blue;
-                text-transform: uppercase;
-
-                &.active {
-                    border-bottom: solid 3px $blue;
-                }
-
-                @include media-breakpoint-down(sm) {
-                    display: block;
-                    border: none;
-                }
-            }
-
-            @include media-breakpoint-down(sm) {
-                display: none;
-            }
-        }
-
         .about-text-wrapper {
             z-index: 10;
             background: red;
@@ -94,7 +43,7 @@
                 width: 100%;
 
                 p {
-                    font-size: 16px !important;
+                    font-size: 18px !important;
                 }
             }
         }

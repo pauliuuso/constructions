@@ -7,12 +7,12 @@
         <section id="construction-about" class="col-12 construction-about section">
 
             <div class="frame">
-                <div class="about-logo-wrapper pl-sm-4">
+                <div class="logo-wrapper pl-sm-4">
                     <img alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
                     <h2 class="text-big text-uppercase ml-4 mt-5 pr-4">Apie</h2>
                 </div>
 
-                <div class="about-menu-wrapper pl-3 pr-3">
+                <div class="menu-wrapper pl-3 pr-3">
                     <h4 class="mr-md-3 pointer pb-1 active">Apie</h4>
                     <h4 class="mr-md-3">Sėkmės istorijos</h4>
                     <h4 class="pointer">Kontaktai</h4>
@@ -36,53 +36,56 @@
 
         <section id="construction-gallery" class="col-12 construction-gallery snap">
 
-            <div class="frame"></div>
+            <div class="frame">
 
-            <div class="gallery-info-wrapper">
-                <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                <h2 class="text-big text-uppercase mt-5 pr-4">Sėkmės istorijos</h2>
-            </div>
-
-            <div class="gallery-menu-wrapper pl-3 pr-3">
-                <h4 class="mr-3 pointer">Apie</h4>
-                <h4 class="mr-3 pb-1 active pointer">Sėkmės istorijos</h4>
-                <h4 class="pointer">Kontaktai</h4>
-            </div>
-
-            <?php if(have_posts()) : ?>
-
-                <div class="row gallery-main-wrapper">
-                    <div class="slick-slider col-12">
-
-                        <?php
-                        global $post;
-                        $args = ['category' => 'products'];
-                        $posts = get_posts($args);
-
-                        foreach($posts as $post): setup_postdata($post)
-                            ?>
-
-                            <div class="ml-4 mr-4 gallery-item-wrapper">
-                                <div class="curtain"></div>
-
-                                <div class="gallery-item-image background-center" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
-                                <div class="gallery-item-info-wrapper">
-                                    <h4 class="text-big text-uppercase text-bold mt-3"><?php the_title(); ?></h4>
-                                    <div class="text-medium"><?php wp_strip_all_tags(the_excerpt()); ?></div>
-                                </div>
-                            </div>
-
-                        <?php endforeach; ?>
-
-                    </div>
+                <div class="logo-wrapper pl-sm-4">
+                    <img class="pr-2" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
+                    <h2 class="text-big text-uppercase mt-5 pr-4">Sėkmės istorijos</h2>
                 </div>
 
+                <div class="menu-wrapper pl-3 pr-3">
+                    <h4 class="mr-3 pointer">Apie</h4>
+                    <h4 class="mr-3 pb-1 active pointer">Sėkmės istorijos</h4>
+                    <h4 class="pointer">Kontaktai</h4>
+                </div>
 
-            <?php endif; ?>
+                <?php if(have_posts()) : ?>
+
+                    <div class="row gallery-main-wrapper">
+                        <div class="slick-slider col-12">
+
+                            <?php
+                            global $post;
+                            $args = ['category' => 'products'];
+                            $posts = get_posts($args);
+
+                            foreach($posts as $post): setup_postdata($post)
+                                ?>
+
+                                <div class="ml-2 mr-2 ml-md-4 mr-md-4 gallery-item-wrapper">
+                                    <div class="curtain"></div>
+
+                                    <div class="gallery-item-image background-center" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
+                                    <div class="gallery-item-info-wrapper">
+                                        <h4 class="text-big text-uppercase text-bold mt-3"><?php the_title(); ?></h4>
+                                        <div class="text-medium"><?php wp_strip_all_tags(the_excerpt()); ?></div>
+                                    </div>
+                                </div>
+
+                            <?php endforeach; ?>
+
+                        </div>
+                    </div>
+
+
+                <?php endif; ?>
+
+            </div>
+
 
         </section>
 
-        <section id="construction-contacts" class="col-12 construction-contacts snap">
+        <section id="construction-contacts" class="col-12 construction-contacts">
 
             <div class="frame"></div>
 
@@ -134,7 +137,6 @@
                         slidesToScroll: 1,
                         infinite: true,
                         variableWidth: true,
-                        dots: false,
                         arrows: true,
                         swipe: true,
                         centerMode: true
@@ -148,7 +150,6 @@
                             slidesToScroll: 1,
                             infinite: true,
                             variableWidth: true,
-                            dots: false,
                             swipe: true,
                             centerMode: true
                         }
@@ -161,7 +162,6 @@
                             slidesToScroll: 1,
                             infinite: true,
                             variableWidth: true,
-                            dots: false,
                             swipe: true,
                             centerMode: true
                         }

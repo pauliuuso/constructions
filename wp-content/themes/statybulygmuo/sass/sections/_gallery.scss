@@ -1,12 +1,8 @@
 .construction-gallery {
-    padding: 210px 128px 128px !important;
+
     position: relative;
     overflow: hidden;
     background: white;
-
-    @include media-breakpoint-down(lg) {
-        padding: 15px !important;
-    }
 
     .frame {
         position: absolute;
@@ -17,135 +13,132 @@
         border-top: solid 3px $blue;
         border-left: solid 3px $blue;
         border-right: solid 3px $blue;
-    }
 
-    .gallery-info-wrapper {
-        position: absolute;
-        left: 145px;
-        top: 10px;
-        background: white;
-        z-index: 2;
-
-        img {
-            float: left;
-            display: inline-block;
+        @include media-breakpoint-down(lg) {
+            left: 15px;
+            right: 15px;
         }
 
-        h2 {
-            display: inline-block;
-            color: $blue;
-            mso-line-spacing: normal;
+        @include media-breakpoint-down(sm) {
+            left: 15px;
+            right: 15px;
+            border: none;
         }
-    }
 
-    .gallery-menu-wrapper {
-        position: absolute;
-        right: 245px;
-        top: 70px;
-        background: white;
-        z-index: 2;
+        .gallery-main-wrapper {
 
-        h4 {
-            display: inline-block;
-            color: $blue;
-            text-transform: uppercase;
+            margin-top: 120px;
 
-            &.active {
-                border-bottom: solid 3px $blue;
-            }
-        }
-    }
+            .slick-slider {
 
-    .gallery-main-wrapper {
-
-        .slick-slider {
-
-            .slick-prev {
-                width: 200px;
-                position: absolute;
-                left: 0;
-                top: 0;
                 height: 500px;
-                z-index: 15;
-                opacity: 0.001;
-                cursor: pointer;
-            }
 
-            .slick-next {
-                width: 200px;
-                position: absolute;
-                right: 0;
-                top: 0;
-                height: 500px;
-                z-index: 15;
-                opacity: 0.001;
-                cursor: pointer;
-            }
+                @include media-breakpoint-down(lg) {
+                    height: 450px !important;
+                }
 
-            .slick-dots {
-                position: absolute;
-                top: -40px;
-                width: 100%;
-                text-align: center;
-
-                li {
-                    display: inline-block !important;
-                    border: solid 3px $blue;
-                    border-radius: 50%;
-                    width: 15px;
-                    height: 15px;
-                    margin: 5px;
+                .slick-prev {
+                    width: 200px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    z-index: 15;
+                    opacity: 0.001;
                     cursor: pointer;
+                }
 
-                    &.slick-active {
-                        background: $blue;
-                    }
+                .slick-next {
+                    width: 200px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: 100%;
+                    z-index: 15;
+                    opacity: 0.001;
+                    cursor: pointer;
+                }
 
-                    button {
-                        display: none;
+                .slick-dots {
+                    position: absolute;
+                    top: -40px;
+                    width: 100%;
+                    text-align: center;
+
+                    li {
+                        display: inline-block !important;
+                        border: solid 3px $blue;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                        margin: 5px;
+                        cursor: pointer;
+
+                        &.slick-active {
+                            background: $blue;
+                        }
+
+                        button {
+                            display: none;
+                        }
                     }
                 }
             }
-        }
 
-        .gallery-item-wrapper {
-            display: inline-block;
-            width: 1100px;
-            position: relative;
-            outline: none;
-            text-outline: none;
+            .gallery-item-wrapper {
+                display: inline-block;
+                width: 1100px;
+                position: relative;
+                outline: none;
+                text-outline: none;
+                height: 100%;
 
-            .curtain {
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 500px;
-                background: white;
-                opacity: 0.5;
-                z-index: 10;
-                position: absolute;
-                -webkit-transition: opacity 1s;
-            }
+                @include media-breakpoint-down(lg) {
+                    width: 900px !important;
+                }
 
-            &.slick-current {
+                @include media-breakpoint-down(md) {
+                    width: 750px !important;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    width: 400px !important;
+                }
+
                 .curtain {
-                    opacity: 0;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    background: white;
+                    opacity: 0.5;
+                    z-index: 10;
+                    position: absolute;
+                    -webkit-transition: opacity 1s;
                 }
+
+                &.slick-current {
+                    .curtain {
+                        opacity: 0;
+                    }
+                    .gallery-item-info-wrapper {
+                        visibility: visible;
+                    }
+                }
+
+                .gallery-item-image {
+                    height: 100%;
+                }
+
                 .gallery-item-info-wrapper {
-                    visibility: visible;
+                    visibility: hidden;
                 }
-            }
-
-            .gallery-item-image {
-                height: 500px;
-            }
-
-            .gallery-item-info-wrapper {
-                visibility: hidden;
             }
         }
     }
 
-
+    .slick-list, .slick-track {
+        height: 100%;
+    }
 
 }
