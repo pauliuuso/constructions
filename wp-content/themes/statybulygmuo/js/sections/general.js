@@ -22,7 +22,6 @@ $(document).ready(function()
 
 function ScrollTo(element)
 {
-    console.log(element);
     $('html, body').animate({
         scrollTop: $(element).offset().top
     }, 500);

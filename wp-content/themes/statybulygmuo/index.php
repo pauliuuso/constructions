@@ -18,12 +18,59 @@
                     <h4 class="pointer">Kontaktai</h4>
                 </div>
 
-                <div class="col-12">
-                    <div class="col-12 about-text-wrapper">
-                    </div>
+                <div class="col-12 about-text-wrapper">
+                    <h2 class="text-big text-font-light fadeIn animated">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas:</h2>
                 </div>
 
-                <div class="about-contacts-wrapper text-center text-sm-left">
+                <div class="row about-icons-wrapper mb-5">
+
+                    <div class="col-12 col-md-6 mt-4">
+                        <div class="row">
+                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                                <div id="namas-icon" class="about-icon"></div>
+                            </div>
+                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">
+                                <p class="text-big text-font-light">Gyvenamųjų namų statyba</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mt-4">
+                        <div class="row">
+                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                                <div id="rekonstrukcija-icon" class="about-icon"></div>
+                            </div>
+                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">
+                                <p class="text-big text-font-light">Rekonstrukcija</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mt-4">
+                        <div class="row">
+                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                                <div id="komercija-icon" class="about-icon"></div>
+                            </div>
+                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">
+                                <p class="text-big text-font-light">Komercinės paskirties pastatų statyba</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mt-4">
+                        <div class="row">
+                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                                <div id="apdaila-icon" class="about-icon"></div>
+                            </div>
+                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">
+                                <p class="text-big text-font-light">Apdaila</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="about-contacts-wrapper text-center text-sm-left mt-4 d-none d-md-block">
                     <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">
                         <span class="mr-3 mr-md-5">+3706 000000</span>
                         <span>info@statybuekspertai.lt</span>
@@ -39,8 +86,8 @@
             <div class="frame">
 
                 <div class="logo-wrapper pl-sm-4">
-                    <img class="pr-2" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                    <h2 class="text-big text-uppercase mt-5 pr-4">Sėkmės istorijos</h2>
+                    <img src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
+                    <h2 class="text-big text-uppercase ml-2 ml-md-4 mt-5 pr-md-4">Sėkmės istorijos</h2>
                 </div>
 
                 <div class="menu-wrapper pl-3 pr-3">
@@ -53,7 +100,6 @@
 
                     <div class="row gallery-main-wrapper">
                         <div class="slick-slider col-12">
-
                             <?php
                             global $post;
                             $args = ['category' => 'products'];
@@ -61,7 +107,6 @@
 
                             foreach($posts as $post): setup_postdata($post)
                                 ?>
-
                                 <div class="ml-2 mr-2 ml-md-4 mr-md-4 gallery-item-wrapper">
                                     <div class="curtain"></div>
 
@@ -71,13 +116,9 @@
                                         <div class="text-medium"><?php wp_strip_all_tags(the_excerpt()); ?></div>
                                     </div>
                                 </div>
-
                             <?php endforeach; ?>
-
                         </div>
                     </div>
-
-
                 <?php endif; ?>
 
             </div>
@@ -87,27 +128,27 @@
 
         <section id="construction-contacts" class="col-12 construction-contacts">
 
-            <div class="frame"></div>
+            <div class="frame">
+                <div class="row contacts-form-wrapper mb-5">
+                    <div class="col-12 col-md-5 offset-md-1">
+                        <h4 class="text-big">Susisiekite su mumis!</h4>
+                        <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+                    </div>
+                    <div class="col-12 col-md-6">
 
-            <div class="row contacts-form-wrapper mb-5">
-                <div class="col-12 col-md-5 offset-md-1">
-                    <h4 class="text-big">Susisiekite su mumis!</h4>
-                    <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
 
+                <div class="menu-wrapper pl-3 pr-3">
+                    <h4 class="mr-3 pointer">Apie</h4>
+                    <h4 class="mr-3 pb-1 pointer">Sėkmės istorijos</h4>
+                    <h4 class="pointer active">Kontaktai</h4>
                 </div>
-            </div>
 
-            <div class="contacts-menu-wrapper pl-3 pr-3">
-                <h4 class="mr-3 pointer">Apie</h4>
-                <h4 class="mr-3 pb-1 pointer">Sėkmės istorijos</h4>
-                <h4 class="pointer active">Kontaktai</h4>
-            </div>
-
-            <div class="contacts-info-wrapper">
-                <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                <h2 class="text-big text-uppercase mt-5 pr-4">Kontaktai</h2>
+                <div class="logo-wrapper">
+                    <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
+                    <h2 class="text-big text-uppercase mt-5 pr-4">Kontaktai</h2>
+                </div>
             </div>
 
         </section>

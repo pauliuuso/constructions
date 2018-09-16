@@ -4,30 +4,69 @@
     background: white;
 
     .frame {
-        position: absolute;
-        top: 80px;
-        left: 128px;
-        right: 128px;
-        bottom: 60px;
+        position: relative;
+        margin-top: 80px;
+        margin-left: 128px;
+        margin-right: 128px;
+        margin-bottom: 60px;
         border: solid 3px $blue;
+        min-height: 85%;
 
         @include media-breakpoint-down(lg) {
-            left: 15px;
-            right: 15px;
-            bottom: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 30px;
         }
 
         @include media-breakpoint-down(sm) {
-            left: 15px;
-            right: 15px;
-            bottom: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 30px;
             border: none;
         }
 
         .about-text-wrapper {
             z-index: 10;
-            background: red;
-            margin-top: 100px;
+            padding-top: 120px;
+            margin-bottom: 70px;
+            padding-left: 150px;
+            padding-right: 150px;
+
+            @include media-breakpoint-down(md) {
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .about-icons-wrapper {
+            padding-left: 150px;
+            padding-right: 150px;
+
+            .about-icon {
+                width: 140px;
+                height: 140px;
+            }
+
+            .about-icon-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            @include media-breakpoint-down(md) {
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
 
         .about-contacts-wrapper {

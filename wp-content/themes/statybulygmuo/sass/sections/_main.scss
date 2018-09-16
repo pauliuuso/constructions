@@ -13,7 +13,7 @@ p, span, h1, h2, h3, h4, h5 {
 }
 
 .text-big {
-  font-size: 44px;
+  font-size: 41px;
   line-height: 51px;
 
   @include media-breakpoint-down(lg) {
@@ -45,6 +45,10 @@ p, span, h1, h2, h3, h4, h5 {
 
 .text-bold {
   font-weight: bold;
+}
+
+.visibility-hidden {
+  visibility: hidden !important;
 }
 
 .background-center {
