@@ -4,22 +4,10 @@
     <list default="true" id="5bcc385f-93be-430d-8fe1-52472d1a7d01" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/css/animate.css_3.5.2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/css/app.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/css/app.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/css/bootstrap.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/apie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_gallery.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="88">
+              <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+            <state relative-caret-position="784">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -80,7 +68,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/scripts.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/_about.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/core/_variables.scss" />
@@ -95,6 +82,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php" />
       </list>
     </option>
@@ -162,33 +151,7 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="statybos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="statybos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="statybos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app.js" type="620a8d5e:NestingTreeNode" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -199,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vjazauskas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -251,12 +214,13 @@
       <workItem from="1536407712194" duration="11744000" />
       <workItem from="1536493928284" duration="10423000" />
       <workItem from="1536911412070" duration="316000" />
-      <workItem from="1537014174256" duration="24996000" />
+      <workItem from="1537014174256" duration="26054000" />
+      <workItem from="1537123245539" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73529000" />
+    <option name="totallyTimeSpent" value="75086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -268,7 +232,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297062" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -293,10 +257,31 @@
     <wordpressPath>C:\www\statybos</wordpressPath>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="396">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -349,20 +334,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -384,20 +363,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -419,13 +392,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -433,13 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/core/jquery.scrollsnap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -484,39 +445,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/logo-animation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/logo-animation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/core/logo-animation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logo-animation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/logo-animation.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apdaila.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/apdaila.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/rekonstrukcija.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/namas.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,44 +471,19 @@
         <state relative-caret-position="-4620" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/core/animate.css_3.5.2.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/apie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="63" lean-forward="true" selection-end-line="71" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/apie.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
           <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -585,10 +494,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+        <state relative-caret-position="88">
+          <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
         </state>
       </provider>
     </entry>
