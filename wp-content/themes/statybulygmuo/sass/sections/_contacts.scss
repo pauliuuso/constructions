@@ -6,23 +6,23 @@
 
     .frame {
 
-        position: absolute;
-        top: 0;
-        left: 128px;
-        right: 128px;
-        bottom: 60px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 128px;
+        margin-right: 128px;
+        margin-bottom: 60px;
         border-left: solid 3px $blue;
         border-right: solid 3px $blue;
         border-bottom: solid 3px $blue;
 
         @include media-breakpoint-down(lg) {
-            left: 15px;
-            right: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
         }
 
         @include media-breakpoint-down(sm) {
-            left: 15px;
-            right: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
             border: none;
         }
 

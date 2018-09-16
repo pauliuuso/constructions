@@ -10,7 +10,7 @@
         margin-right: 128px;
         margin-bottom: 60px;
         border: solid 3px $blue;
-        min-height: 85%;
+        //min-height: 90%;
 
         @include media-breakpoint-down(lg) {
             margin-left: 15px;

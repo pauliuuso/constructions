@@ -9,6 +9,16 @@ bootstrap@4.0.0-alpha.6:
     jquery ">=1.9.1"
     tether "^1.4.0"
 
+closure-compiler@^0.2.12:
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/closure-compiler/-/closure-compiler-0.2.12.tgz#6c3087cad12742c79e47f0ce50e87af91cf8e171"
+  dependencies:
+    google-closure-compiler "20150901.x"
+
+google-closure-compiler@20150901.x:
+  version "20150901.0.0"
+  resolved "https://registry.yarnpkg.com/google-closure-compiler/-/google-closure-compiler-20150901.0.0.tgz#3d01c6cade65790a9bfb4e30b2158b7635acbade"
+
 jquery@>=1.9.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
@@ -20,3 +30,7 @@ lottie-web@^5.2.1:
 tether@^1.4.0:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/tether/-/tether-1.4.4.tgz#9dc6eb2b3e601da2098fd264e7f7a8b264de1125"
+
+yuicompressor@^2.4.8:
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/yuicompressor/-/yuicompressor-2.4.8.tgz#98d26751f166e3db919b2fe3ea7cf642de998d8b"
