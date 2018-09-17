@@ -133,7 +133,14 @@
                 <div class="row contacts-form-wrapper mb-5">
                     <div class="col-12 col-md-5 offset-md-1">
                         <h4 class="text-big">Susisiekite su mumis!</h4>
-                        <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+                        <?php
+                            $content_post = get_page_by_path( 'contacts' );
+                            $content = $content_post->post_content;
+                            $content = apply_filters('the_content', $content);
+                            $content = str_replace(']]>', ']]&gt;', $content);
+                            echo $content;
+                        ?>
+
                     </div>
                     <div class="col-12 col-md-6">
 
