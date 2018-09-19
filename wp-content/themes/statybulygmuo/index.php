@@ -8,7 +8,7 @@
 
             <div class="frame">
 
-                <div class="logo-wrapper pl-sm-4">
+                <div class="logo-wrapper pl-sm-4 d-none d-md-block">
                     <img class="animated visibility-hidden js-about-slide-down" alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
                     <h2 class="text-big text-uppercase ml-4 mt-5 pr-4 animated visibility-hidden js-about-slide-down">Apie</h2>
                 </div>
@@ -25,45 +25,45 @@
 
                 <div class="row about-icons-wrapper mb-5 pb-5">
 
-                    <div class="col-12 col-md-6 mt-4">
+                    <div class="col-12 col-sm-6 mt-4">
                         <div class="row">
-                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
                                 <div id="namas-icon" class="about-icon"></div>
                             </div>
-                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">
+                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">
                                 <p class="text-big text-font-light pl-2">Gyvenamųjų namų statyba</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 mt-4">
+                    <div class="col-12 col-sm-6 mt-4">
                         <div class="row">
-                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
                                 <div id="rekonstrukcija-icon" class="about-icon"></div>
                             </div>
-                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">
+                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">
                                 <p class="text-big text-font-light pl-2">Rekonstrukcija</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 mt-4">
+                    <div class="col-12 col-sm-6 mt-4">
                         <div class="row">
-                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
                                 <div id="komercija-icon" class="about-icon"></div>
                             </div>
-                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">
+                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">
                                 <p class="text-big text-font-light pl-2">Komercinės paskirties pastatų statyba</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 mt-4">
+                    <div class="col-12 col-sm-6 mt-4">
                         <div class="row">
-                            <div class="col-5 col-sm-4 col-md-12 col-lg-3">
+                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
                                 <div id="apdaila-icon" class="about-icon"></div>
                             </div>
-                            <div class="col-7 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">
+                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">
                                 <p class="text-big text-font-light pl-2">Apdaila</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
 
             <div class="frame full-height">
 
-                <div class="logo-wrapper pl-sm-4">
+                <div class="logo-wrapper pl-sm-4 d-none d-md-block">
                     <img src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
                     <h2 class="text-big text-uppercase ml-2 ml-md-4 mt-5 pr-md-4">Sėkmės istorijos</h2>
                 </div>
@@ -99,8 +99,8 @@
 
                 <?php if(have_posts()) : ?>
 
-                    <div class="row gallery-main-wrapper">
-                        <div class="slick-slider col-12">
+                    <div class="gallery-main-wrapper">
+                        <div class="col-12 slick-slider">
                             <?php
                             global $post;
                             $args = ['category' => 'products'];
@@ -153,7 +153,7 @@
                     <h4 class="pointer active">Kontaktai</h4>
                 </div>
 
-                <div class="logo-wrapper">
+                <div class="logo-wrapper d-none d-md-block">
                     <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
                     <h2 class="text-big text-uppercase mt-5 pr-4">Kontaktai</h2>
                 </div>

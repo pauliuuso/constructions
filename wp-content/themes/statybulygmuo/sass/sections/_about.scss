@@ -38,9 +38,10 @@
             }
 
             @include media-breakpoint-down(sm) {
-                padding-left: 0;
-                padding-right: 0;
+                padding: 0;
+                margin-bottom: 0;
             }
+
         }
 
         .about-icons-wrapper {
@@ -50,6 +51,11 @@
             .about-icon {
                 width: 140px;
                 height: 140px;
+
+                @include media-breakpoint-down(sm) {
+                    width: 60px;
+                    height: 60px;
+                }
             }
 
             .about-icon-text {

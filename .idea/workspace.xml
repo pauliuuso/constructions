@@ -4,6 +4,11 @@
     <list default="true" id="5bcc385f-93be-430d-8fe1-52472d1a7d01" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/statybulygmuo/style.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,62 +22,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
+            <state relative-caret-position="572">
+              <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
+              <folding>
+                <element signature="e#5865#5930#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="529" column="9" selection-start-line="529" selection-start-column="9" selection-end-line="529" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php">
+      <file leaf-file-name="_gallery.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="38" column="63" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="93" lean-forward="true" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -91,6 +54,7 @@
       <find>text-medium</find>
       <find>deep</find>
       <find>lottie</find>
+      <find>gallery-item-info-wrapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,18 +68,18 @@
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/core/_variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/core/_fonts.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_contacts.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/app.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/apie.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/sections/general.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/stylesheet.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php" />
       </list>
     </option>
@@ -151,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,27 +139,35 @@
               <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="twentyfifteen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="statybos" type="b2602c69:ProjectViewProjectNode" />
               <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="twentyfifteen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="statybos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statybos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="statybulygmuo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sections" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-lv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lords-v1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -249,18 +222,21 @@
       <workItem from="1537014174256" duration="26054000" />
       <workItem from="1537123245539" duration="1099000" />
       <workItem from="1537166314934" duration="23000" />
-      <workItem from="1537206575328" duration="3297000" />
+      <workItem from="1537206575328" duration="3388000" />
+      <workItem from="1537248298243" duration="22000" />
+      <workItem from="1537260997645" duration="3537000" />
+      <workItem from="1537356572213" duration="1676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79006000" />
+    <option name="totallyTimeSpent" value="84332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026652" side_tool="true" weight="0.3297062" />
@@ -291,6 +267,13 @@
     <wordpressPath>C:\www\statybos</wordpressPath>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -479,24 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -510,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -524,23 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/namas.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/json/komercija.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="93" lean-forward="true" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="107" />
+          <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -570,15 +519,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
+        <state relative-caret-position="11528">
           <caret line="529" column="9" selection-start-line="529" selection-start-column="9" selection-end-line="529" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/sass/sections/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/statybulygmuo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="136" column="71" selection-start-line="136" selection-start-column="71" selection-end-line="136" selection-end-column="71" />
+        <state relative-caret-position="572">
+          <caret line="155" column="58" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
+          <folding>
+            <element signature="e#5865#5930#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,12 +30,25 @@
             padding-top: 120px;
             display: block;
 
+            @include media-breakpoint-down(sm) {
+                padding-top: 0;
+            }
+
+            ul {
+                padding: 0;
+                margin-left: -15px;
+            }
+
             .slick-slider {
 
                 height: 500px;
 
                 @include media-breakpoint-down(lg) {
                     height: 450px !important;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    height: 400px !important;
                 }
 
                 .slick-prev {
@@ -94,6 +107,7 @@
                 text-outline: none;
                 height: 100%;
 
+
                 @include media-breakpoint-down(lg) {
                     width: 900px !important;
                 }
@@ -103,7 +117,7 @@
                 }
 
                 @include media-breakpoint-down(sm) {
-                    width: 400px !important;
+                    width: 300px !important;
                 }
 
                 .curtain {
