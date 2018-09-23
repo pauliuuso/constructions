@@ -8,68 +8,84 @@
 
             <div class="frame">
 
-                <div class="logo-wrapper pl-sm-4 d-none d-md-block">
-                    <img class="animated visibility-hidden js-about-slide-down" alt="statybu ekspertai logotipas" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                    <h2 class="text-big text-uppercase ml-4 mt-5 pr-4 animated visibility-hidden js-about-slide-down">Apie</h2>
+                <div class="logo-wrapper d-none d-md-block">
+                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4 animated visibility-hidden js-about-slide-down">Apie</h2>
                 </div>
 
-                <div class="menu-wrapper js-about-menu-wrapper pl-3 pr-3">
+                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4">
                     <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden active js-element">Apie</h4>
                     <h4 class="mr-md-3 animated visibility-hidden js-element">Sėkmės istorijos</h4>
                     <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
                 </div>
 
-                <div class="col-12 about-text-wrapper">
-                    <h2 class="text-big text-font-light fadeIn animated">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas:</h2>
+                <div class="row about-text-wrapper">
+                    <div class="col-12">
+                        <div id="logo-animated" class="logo-animated"></div>
+                    </div>
+                    <div class="col-12 mt-1">
+                        <h2 class="text-super-big text-bold text-red fadeIn animated">Statybų ekspertai</h2>
+                    </div>
+                    <div class="col-1 mt-5">
+                        <div id="about-text-beam-animated" class="about-text-beam-animated"></div>
+                    </div>
+                    <div class="col-6 mt-5">
+                        <p class="text-bigger text-red text-font-light fadeIn animated">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="row about-icons-wrapper mb-5 pb-5">
-
-                    <div class="col-12 col-sm-6 mt-4">
-                        <div class="row">
-                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
-                                <div id="namas-icon" class="about-icon"></div>
-                            </div>
-                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">
-                                <p class="text-big text-font-light pl-2">Gyvenamųjų namų statyba</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 mt-4">
-                        <div class="row">
-                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
-                                <div id="rekonstrukcija-icon" class="about-icon"></div>
-                            </div>
-                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">
-                                <p class="text-big text-font-light pl-2">Rekonstrukcija</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 mt-4">
-                        <div class="row">
-                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
-                                <div id="komercija-icon" class="about-icon"></div>
-                            </div>
-                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">
-                                <p class="text-big text-font-light pl-2">Komercinės paskirties pastatų statyba</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 mt-4">
-                        <div class="row">
-                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">
-                                <div id="apdaila-icon" class="about-icon"></div>
-                            </div>
-                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">
-                                <p class="text-big text-font-light pl-2">Apdaila</p>
-                            </div>
-                        </div>
-                    </div>
+                <div id="about-house-animated" class="about-house-animated">
 
                 </div>
+
+
+<!--                <div class="row about-icons-wrapper mb-5 pb-5">-->
+<!---->
+<!--                    <div class="col-12 col-sm-6 mt-4">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
+<!--                                <div id="namas-icon" class="about-icon"></div>-->
+<!--                            </div>-->
+<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">-->
+<!--                                <p class="text-big text-font-light pl-2">Gyvenamųjų namų statyba</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-12 col-sm-6 mt-4">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
+<!--                                <div id="rekonstrukcija-icon" class="about-icon"></div>-->
+<!--                            </div>-->
+<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">-->
+<!--                                <p class="text-big text-font-light pl-2">Rekonstrukcija</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-12 col-sm-6 mt-4">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
+<!--                                <div id="komercija-icon" class="about-icon"></div>-->
+<!--                            </div>-->
+<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">-->
+<!--                                <p class="text-big text-font-light pl-2">Komercinės paskirties pastatų statyba</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-12 col-sm-6 mt-4">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
+<!--                                <div id="apdaila-icon" class="about-icon"></div>-->
+<!--                            </div>-->
+<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">-->
+<!--                                <p class="text-big text-font-light pl-2">Apdaila</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
 
                 <div class="about-contacts-wrapper text-center text-sm-left mt-4 d-none d-md-block">
                     <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">

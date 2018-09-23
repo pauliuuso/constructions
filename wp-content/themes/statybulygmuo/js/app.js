@@ -10,22 +10,36 @@ $(document).ready(function() {
     const komercijaAnimation = loadAnimation('komercija-icon', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
     const apdailaAnimation = loadAnimation('apdaila-icon', 'wp-content/themes/statybulygmuo/json/apdaila.json');
 
+    const logoAnimation = loadAnimation('logo-animated', 'wp-content/themes/statybulygmuo/json/logo.json');
+    const houseAnimation = loadAnimation('about-house-animated', 'wp-content/themes/statybulygmuo/json/pastatas.json');
+    const beamAnimation = loadAnimation('about-text-beam-animated', 'wp-content/themes/statybulygmuo/json/bruksnys.json');
+
     const iconAnimations = [namasAnimation, rekonstrukcijaAnimation, komercijaAnimation, apdailaAnimation];
     const iconText = [$('.js-namas-icon-text'), $('.js-rekonstrukcija-icon-text'), $('.js-komercija-icon-text'), $('.js-apdaila-icon-text')];
 
     baseAppear(baseTimeout);
 
-    namasAnimation.addEventListener('data_ready', function()
+    logoAnimation.addEventListener('data_ready', function()
     {
-        let timeOut = timeoutStep;
-
-        for(let a = 0; a < iconAnimations.length; a++) {
-            setTimeout(function() {
-                iconAnimations[a].play();
-                fadeIn(iconText[a], textTimeout);
-            }, baseTimeout + timeOut * a);
-        }
+        logoAnimation.play();
     });
+
+    beamAnimation.addEventListener('data_ready', function ()
+    {
+        beamAnimation.play();
+    });
+
+    // namasAnimation.addEventListener('data_ready', function()
+    // {
+    //     let timeOut = timeoutStep;
+    //
+    //     for(let a = 0; a < iconAnimations.length; a++) {
+    //         setTimeout(function() {
+    //             iconAnimations[a].play();
+    //             fadeIn(iconText[a], textTimeout);
+    //         }, baseTimeout + timeOut * a);
+    //     }
+    // });
 
 
     function baseAppear(timeout) {
@@ -81,7 +95,7 @@ $(document).ready(function()
     function SetHeights()
     {
         var $screenHeight = $(window).height();
-        $('.full-height').css("min-height", $screenHeight + "px");
+        $('.full-height').css("height", $screenHeight + "px");
     }
 
     $(document).scrollsnap({

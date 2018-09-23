@@ -4,13 +4,10 @@
     background: white;
 
     .frame {
+        height: 90%;
         position: relative;
-        margin-top: 80px;
-        margin-left: 128px;
-        margin-right: 128px;
-        margin-bottom: 60px;
-        border: solid 3px $blue;
-        //min-height: 90%;
+        margin: 40px 60px 0 60px;
+        border: solid 1px $blue;
 
         @include media-breakpoint-down(lg) {
             margin-left: 15px;
@@ -28,9 +25,20 @@
         .about-text-wrapper {
             z-index: 10;
             padding-top: 120px;
-            margin-bottom: 70px;
-            padding-left: 150px;
-            padding-right: 150px;
+            padding-left: 70px;
+            line-height: 1.7;
+
+            .logo-animated {
+                width: 205px;
+                height: 101px;
+            }
+
+            .about-text-beam-animated {
+                position: absolute;
+                right: 0;
+                width: 10px;
+                height: 100%;
+            }
 
             @include media-breakpoint-down(md) {
                 padding-left: 45px;
@@ -73,6 +81,14 @@
                 padding-left: 0;
                 padding-right: 0;
             }
+        }
+
+        .about-house-animated {
+            position: absolute;
+            bottom: 0;
+            top: 100px;
+            right: 90px;
+            width: 700px;
         }
 
         .about-contacts-wrapper {
