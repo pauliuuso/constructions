@@ -28,6 +28,8 @@ $(document).ready(function()
 
     function scroll(pageToScroll) {
 
+        console.log("scroll "  + pageToScroll);
+
         let scrollTo = function() {
             currentPage = pageToScroll;
             return sections[pageToScroll];
