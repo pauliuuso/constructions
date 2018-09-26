@@ -7,6 +7,7 @@
         <meta name="description" content="<?php bloginfo('description'); ?>">
         <?php wp_head(); ?>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
+        <script src="<?php bloginfo('template_url'); ?>/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/app.min.js"></script>
         <title>
             <?php bloginfo('name'); ?>

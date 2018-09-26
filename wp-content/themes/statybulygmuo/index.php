@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
 
-    <div class="row">
+    <div id="fullpage" class="row">
 
         <section id="construction-about" class="col-12 construction-about section full-height">
 
@@ -98,9 +98,9 @@
 
         </section>
 
-        <section id="construction-gallery" class="col-12 construction-gallery snap mt-5 full-height">
+        <section id="construction-gallery" class="section col-12 construction-gallery snap mt-5 full-height">
 
-            <div class="frame full-height">
+            <div class="frame">
 
                 <div class="logo-wrapper pl-sm-4 d-none d-md-block">
                     <img src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
@@ -143,7 +143,7 @@
 
         </section>
 
-        <section id="construction-contacts" class="col-12 construction-contacts full-height">
+        <section id="construction-contacts" class="section col-12 construction-contacts full-height">
 
             <div class="frame">
                 <div class="row contacts-form-wrapper mb-5">

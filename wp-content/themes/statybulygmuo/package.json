@@ -3,6 +3,7 @@
   "version": "1.0",
   "dependencies": {
     "animated-scroll-to": "^1.2.2",
+    "fullpage.js": "^3.0.3",
     "gulp": "latest",
     "gulp-concat": "latest",
     "gulp-notify": "latest",
