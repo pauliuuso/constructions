@@ -17,7 +17,7 @@ gulp.task("sass", function() {
         )
         .pipe(
             sass({
-                sourceComments: "map",
+                sourceComments: false,
                 sourceMap: "sass",
                 imagePath: "img",
                 outputStyle: "compressed"
