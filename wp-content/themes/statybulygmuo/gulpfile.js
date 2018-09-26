@@ -9,13 +9,6 @@ const gulp = require("gulp"),
 
 const assetsDir = "assets";
 
-gulp.task("watch", function() {
-    gulp.watch(assetsDir + "/sass/**/*.scss", ["sass"]);
-    gulp.watch(assetsDir + "/js/**/*.js", ["js"]);
-});
-
-gulp.task("default", ["serve"]);
-
 gulp.task("sass", function() {
     gulp
         .src(assetsDir + "/sass/style.scss")
@@ -46,3 +39,10 @@ gulp.task("js", function() {
         .pipe(sourcemaps.write("."))
         .pipe(gulp.dest(""));
 });
+
+gulp.task("watch", function() {
+    gulp.watch(assetsDir + "/sass/**/*.scss", ["sass"]);
+    gulp.watch(assetsDir + "/js/**/*.js", ["js"]);
+});
+
+gulp.task("build", ["js", "sass"]);
