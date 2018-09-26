@@ -2,13 +2,14 @@
   "name": "packages",
   "version": "1.0",
   "dependencies": {
+    "animated-scroll-to": "^1.2.2",
     "gulp": "latest",
-    "gulp-plumber": "latest",
-    "gulp-notify": "latest",
-    "gulp-sass": "latest",
-    "gulp-rename": "latest",
-    "gulp-sourcemaps": "latest",
     "gulp-concat": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
     "gulp-uglify-es": "latest"
   }
 }

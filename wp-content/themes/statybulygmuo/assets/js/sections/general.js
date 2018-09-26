@@ -14,6 +14,10 @@ $(document).ready(function()
     }
 
     $(window).on('mousewheel', (function(event) {
+        if(scrolling)
+        {
+            event.preventDefault();
+        }
         // down
         if (event.deltaY < 0 && !scrolling && currentPage < sections.length - 1) {
             scroll(parseInt(currentPage) + 1);
@@ -28,8 +32,6 @@ $(document).ready(function()
 
     function scroll(pageToScroll) {
 
-        console.log("scroll "  + pageToScroll);
-
         let scrollTo = function() {
             currentPage = pageToScroll;
             return sections[pageToScroll];
@@ -39,7 +41,7 @@ $(document).ready(function()
             {
                 scrollTop: $(scrollTo).offset().top
             },
-            500,
+            800,
             function()
             {
                 scrolling = false;

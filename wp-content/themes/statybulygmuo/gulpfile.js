@@ -1,11 +1,11 @@
-const gulp = require("gulp"),
-    sass = require("gulp-sass"),
-    plumber = require("gulp-plumber"),
-    notify = require("gulp-notify"),
-    rename = require("gulp-rename"),
-    sourcemaps = require("gulp-sourcemaps"),
-    concat = require("gulp-concat"),
-    uglify = require("gulp-uglify-es").default();
+const gulp = require("gulp");
+const sass = require("gulp-sass");
+const plumber = require("gulp-plumber");
+const notify = require("gulp-notify");
+const rename = require("gulp-rename");
+const sourcemaps = require("gulp-sourcemaps");
+const concat = require("gulp-concat");
+const uglify = require("gulp-uglify-es").default();
 
 const assetsDir = "assets";
 
