@@ -85,10 +85,12 @@
 
         .about-house-animated {
             position: absolute;
-            bottom: 0;
+            bottom: -60px;
             top: 100px;
-            right: 90px;
+            right: 70px;
             width: 700px;
+            background: white;
+            z-index: 11;
         }
 
         .about-contacts-wrapper {

@@ -1,0 +1,14 @@
+{
+  "name": "packages",
+  "version": "1.0",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-plumber": "latest",
+    "gulp-notify": "latest",
+    "gulp-sass": "latest",
+    "gulp-rename": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-concat": "latest",
+    "gulp-uglify-es": "latest"
+  }
+}

@@ -1,4 +1,3 @@
-// APIE //
 $(document).ready(function() {
 
     let baseTimeout = 200;
@@ -10,7 +9,7 @@ $(document).ready(function() {
     const komercijaAnimation = loadAnimation('komercija-icon', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
     const apdailaAnimation = loadAnimation('apdaila-icon', 'wp-content/themes/statybulygmuo/json/apdaila.json');
 
-    const logoAnimation = loadAnimation('logo-animated', 'wp-content/themes/statybulygmuo/json/logo.json');
+    const logoAnimation = loadAnimation('logo-animated', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
     const houseAnimation = loadAnimation('about-house-animated', 'wp-content/themes/statybulygmuo/json/pastatas.json');
     const beamAnimation = loadAnimation('about-text-beam-animated', 'wp-content/themes/statybulygmuo/json/bruksnys.json');
 
@@ -19,15 +18,20 @@ $(document).ready(function() {
 
     baseAppear(baseTimeout);
 
-    logoAnimation.addEventListener('data_ready', function()
+    // logoAnimation.addEventListener('data_ready', function()
+    // {
+    //     logoAnimation.play();
+    // });
+
+    houseAnimation.addEventListener('data_ready', function()
     {
-        logoAnimation.play();
+        houseAnimation.play();
     });
 
-    beamAnimation.addEventListener('data_ready', function ()
-    {
-        beamAnimation.play();
-    });
+    // beamAnimation.addEventListener('data_ready', function ()
+    // {
+    //     beamAnimation.play();
+    // });
 
     // namasAnimation.addEventListener('data_ready', function()
     // {
@@ -85,30 +89,3 @@ $(document).ready(function() {
     }
 
 });
-
-
-// General
-$(document).ready(function()
-{
-    SetHeights();
-
-    function SetHeights()
-    {
-        var $screenHeight = $(window).height();
-        $('.full-height').css("height", $screenHeight + "px");
-    }
-
-    $(document).scrollsnap({
-        snaps: '.snap',
-        proximity: 300,
-        latency: 100
-    });
-
-});
-
-function ScrollTo(element)
-{
-    $('html, body').animate({
-        scrollTop: $(element).offset().top
-    }, 500);
-}
