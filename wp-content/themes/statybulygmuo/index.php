@@ -4,7 +4,7 @@
 
     <div id="fullpage" class="row">
 
-        <section id="construction-about" class="col-12 construction-about section full-height">
+        <section id="construction-about" data-anchor="section-about" class="col-12 construction-about section full-height">
 
             <div class="frame">
 
@@ -13,9 +13,15 @@
                 </div>
 
                 <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4">
-                    <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden active js-element">Apie</h4>
-                    <h4 class="mr-md-3 animated visibility-hidden js-element">Sėkmės istorijos</h4>
-                    <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
+                    <a href="#section-about">
+                        <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden active js-element">Apie</h4>
+                    </a>
+                    <a href="#section-products">
+                        <h4 class="mr-md-3 animated visibility-hidden js-element">Sėkmės istorijos</h4>
+                    </a>
+                    <a href="#section-contacts">
+                        <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
+                    </a>
                 </div>
 
                 <div class="row about-text-wrapper">
@@ -98,7 +104,7 @@
 
         </section>
 
-        <section id="construction-gallery" class="section col-12 construction-gallery snap mt-5 full-height">
+        <section id="construction-gallery" data-anchor="section-products" class="section col-12 construction-gallery snap mt-5 full-height">
 
             <div class="frame">
 
@@ -107,10 +113,16 @@
                     <h2 class="text-big text-uppercase ml-2 ml-md-4 mt-5 pr-md-4">Sėkmės istorijos</h2>
                 </div>
 
-                <div class="menu-wrapper pl-3 pr-3">
-                    <h4 class="mr-3 pointer">Apie</h4>
-                    <h4 class="mr-3 pb-1 active pointer">Sėkmės istorijos</h4>
-                    <h4 class="pointer">Kontaktai</h4>
+                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4">
+                    <a href="#section-about">
+                        <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden js-element">Apie</h4>
+                    </a>
+                    <a href="#section-products">
+                        <h4 class="mr-md-3 animated visibility-hidden js-element active">Sėkmės istorijos</h4>
+                    </a>
+                    <a href="#section-contacts">
+                        <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
+                    </a>
                 </div>
 
                 <?php if(have_posts()) : ?>
@@ -143,7 +155,7 @@
 
         </section>
 
-        <section id="construction-contacts" class="section col-12 construction-contacts full-height">
+        <section id="construction-contacts" data-anchor="section-contacts" class="section col-12 construction-contacts full-height">
 
             <div class="frame">
                 <div class="row contacts-form-wrapper mb-5">

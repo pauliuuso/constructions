@@ -40,6 +40,10 @@
                 height: 100%;
             }
 
+            @include media-breakpoint-down(lg) {
+                padding-top: 20px;
+            }
+
             @include media-breakpoint-down(md) {
                 padding-left: 45px;
                 padding-right: 45px;
@@ -91,6 +95,13 @@
             width: 700px;
             background: white;
             z-index: 11;
+
+            @include media-breakpoint-down(lg)
+            {
+                top: 40px;
+                width: 600px;
+                right: 20px;
+            }
         }
 
         .about-contacts-wrapper {
