@@ -42,6 +42,8 @@
 
                 <div id="about-house-animated" class="about-house-animated d-none animated"></div>
 
+                <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-md-none"></div>
+
                 <div class="about-contacts-wrapper js-about-contacts-wrapper text-center text-sm-left mt-4 d-none animated">
                     <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">
                         <span class="mr-3 mr-md-5 js-about-slide-up">+3706 000000</span>

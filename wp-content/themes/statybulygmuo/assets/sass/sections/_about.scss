@@ -36,6 +36,11 @@
             .logo-animated {
                 width: 205px;
                 height: 101px;
+
+                @include media-breakpoint-down(sm) {
+                    width: 110px;
+                    margin-bottom: -26px;
+                }
             }
 
             .about-text-beam {
@@ -118,6 +123,18 @@
                 width: 400px;
                 right: 0;
             }
+        }
+
+        .about-roof-animated {
+            position: absolute;
+            bottom: -15px;
+            right: -15px;
+            width: 250px;
+
+            @include media-breakpoint-down(xs) {
+                width: 150px;
+            }
+
         }
 
         .about-contacts-wrapper {
