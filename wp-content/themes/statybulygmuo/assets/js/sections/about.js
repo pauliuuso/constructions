@@ -1,90 +1,83 @@
-$(document).ready(function() {
+$(window).ready(function() {
 
-    let baseTimeout = 200;
-    const timeoutStep = 300;
-    const textTimeout = 400;
+    var baseTimeout = 200;
+    // playVivusAnimation('logo-animated', 200, '/svg/logotipas.svg');
 
-    const namasAnimation = loadAnimation('namas-icon', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
-    const rekonstrukcijaAnimation = loadAnimation('rekonstrukcija-icon', 'wp-content/themes/statybulygmuo/json/apdaila.json');
-    const komercijaAnimation = loadAnimation('komercija-icon', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
-    const apdailaAnimation = loadAnimation('apdaila-icon', 'wp-content/themes/statybulygmuo/json/apdaila.json');
+    showContents();
 
-    const logoAnimation = loadAnimation('logo-animated', 'wp-content/themes/statybulygmuo/json/rekonstrukcija.json');
-    const houseAnimation = loadAnimation('about-house-animated', 'wp-content/themes/statybulygmuo/json/pastatas.json');
-    const beamAnimation = loadAnimation('about-text-beam-animated', 'wp-content/themes/statybulygmuo/json/bruksnys.json');
-
-    const iconAnimations = [namasAnimation, rekonstrukcijaAnimation, komercijaAnimation, apdailaAnimation];
-    const iconText = [$('.js-namas-icon-text'), $('.js-rekonstrukcija-icon-text'), $('.js-komercija-icon-text'), $('.js-apdaila-icon-text')];
-
-    baseAppear(baseTimeout);
-
-    // logoAnimation.addEventListener('data_ready', function()
-    // {
-    //     logoAnimation.play();
-    // });
-
-    houseAnimation.addEventListener('data_ready', function()
+    function showContents()
     {
-        houseAnimation.play();
-    });
+        showElement($('#construction-about .frame'), 'fadeIn', baseTimeout);
+        showElement($('.js-about-title-wrapper'), 'fadeIn', baseTimeout * 3);
+        showElement($('.js-about-text-wrapper'), 'fadeIn', baseTimeout * 4);
+        showElement($('#about-house-animated'), 'fadeIn d-md-block', baseTimeout * 5);
+        playVivusAnimation('about-house-animated', 150, '/svg/daugiabutis.svg', baseTimeout * 5);
+        showElement($('.js-about-logo-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 6);
+        showElement($('.js-about-menu-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 7);
+        showElement($('.js-about-contacts-wrapper'), 'fadeInUp d-lg-block', baseTimeout * 8);
+        showElement($('.js-about-contacts-wrapper-mobile'), 'fadeInUp', baseTimeout * 8);
+    }
 
-    // beamAnimation.addEventListener('data_ready', function ()
-    // {
-    //     beamAnimation.play();
-    // });
+    // function baseAppear(timeout) {
+        // setTimeout(function() {
+        //     $('.js-about-slide-down').addClass('fadeInDown');
+        //     $('.js-about-slide-down').removeClass('visibility-hidden');
+        //
+        //     $('.js-about-slide-up').addClass('fadeInUp');
+        //     $('.js-about-slide-up').removeClass('visibility-hidden');
+        //
+        //     menuAppear($('.js-about-menu-wrapper'));
+        // }, timeout);
+    // }
 
-    // namasAnimation.addEventListener('data_ready', function()
-    // {
+    // function menuAppear(menu) {
+    //     elements = menu.find('.js-element');
+    //
     //     let timeOut = timeoutStep;
     //
-    //     for(let a = 0; a < iconAnimations.length; a++) {
+    //     for(let a = 0; a < elements.length; a++) {
     //         setTimeout(function() {
-    //             iconAnimations[a].play();
-    //             fadeIn(iconText[a], textTimeout);
-    //         }, baseTimeout + timeOut * a);
+    //             $(elements[a]).addClass('fadeInDown');
+    //             $(elements[a]).removeClass('visibility-hidden');
+    //         }, timeOut * a);
     //     }
-    // });
+    // }
 
+    // function loadAnimation(containerId, path) {
+    //     return lottie.loadAnimation({
+    //         container: document.getElementById(containerId),
+    //         renderer: 'svg',
+    //         loop: false,
+    //         autoplay: false,
+    //         path: path
+    //     });
+    // }
 
-    function baseAppear(timeout) {
-        setTimeout(function() {
-            $('.js-about-slide-down').addClass('fadeInDown');
-            $('.js-about-slide-down').removeClass('visibility-hidden');
-
-            $('.js-about-slide-up').addClass('fadeInUp');
-            $('.js-about-slide-up').removeClass('visibility-hidden');
-
-            menuAppear($('.js-about-menu-wrapper'));
+    function playVivusAnimation(id, duration, file, timeout)
+    {
+        setTimeout(function()
+        {
+            var currentAnimation = new Vivus(id, {
+                duration: duration,
+                file: theme_url + file,
+                start: 'manual',
+                onReady: function()
+                {
+                    onSvgReady(currentAnimation);
+                }
+            });
         }, timeout);
     }
 
-    function menuAppear(menu) {
-        elements = menu.find('.js-element');
-
-        let timeOut = timeoutStep;
-
-        for(let a = 0; a < elements.length; a++) {
-            setTimeout(function() {
-                $(elements[a]).addClass('fadeInDown');
-                $(elements[a]).removeClass('visibility-hidden');
-            }, timeOut * a);
-        }
+    function onSvgReady(animation)
+    {
+        animation.play();
     }
 
-    function loadAnimation(containerId, path) {
-        return lottie.loadAnimation({
-            container: document.getElementById(containerId),
-            renderer: 'svg',
-            loop: false,
-            autoplay: false,
-            path: path
-        });
-    }
-
-    function fadeIn(element, timeout) {
+    function showElement(element, className, timeout) {
         setTimeout(function() {
             element.removeClass('visibility-hidden');
-            element.addClass('fadeIn');
+            element.addClass(className);
         }, timeout);
     }
 

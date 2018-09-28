@@ -1,11 +1,11 @@
-const gulp = require("gulp");
-const sass = require("gulp-sass");
-const plumber = require("gulp-plumber");
-const notify = require("gulp-notify");
-const rename = require("gulp-rename");
-const sourcemaps = require("gulp-sourcemaps");
-const concat = require("gulp-concat");
-const uglify = require("gulp-uglify-es").default();
+var gulp = require("gulp"),
+    sass = require("gulp-sass"),
+    plumber = require("gulp-plumber"),
+    notify = require("gulp-notify"),
+    rename = require("gulp-rename"),
+    sourcemaps = require("gulp-sourcemaps"),
+    concat = require("gulp-concat"),
+    uglify = require("gulp-uglify");
 
 const assetsDir = "assets";
 
@@ -35,7 +35,7 @@ gulp.task("js", function() {
         )
         .pipe(sourcemaps.init())
         .pipe(concat("app.min.js"))
-        .pipe(uglify)
+        .pipe(uglify())
         .pipe(sourcemaps.write("."))
         .pipe(gulp.dest(""));
 });

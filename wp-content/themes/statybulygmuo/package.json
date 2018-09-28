@@ -11,6 +11,8 @@
     "gulp-rename": "latest",
     "gulp-sass": "latest",
     "gulp-sourcemaps": "latest",
-    "gulp-uglify-es": "latest"
+    "gulp-uglify-es": "latest",
+    "gulp-uglify": "latest",
+    "vivus": "^0.4.4"
   }
 }

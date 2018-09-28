@@ -4,23 +4,23 @@
 
     <div id="fullpage" class="row">
 
-        <section id="construction-about" data-anchor="section-about" class="col-12 construction-about section full-height">
+        <section id="construction-about" data-anchor="section-about" class="col-12 construction-about section">
 
-            <div class="frame">
+            <div class="frame visibility-hidden animated">
 
-                <div class="logo-wrapper d-none d-md-block">
-                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4 animated visibility-hidden js-about-slide-down">Apie</h2>
+                <div class="logo-wrapper d-none animated js-about-logo-wrapper">
+                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4">Apie</h2>
                 </div>
 
-                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4">
+                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4 d-none animated">
                     <a href="#section-about">
-                        <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden active js-element">Apie</h4>
+                        <h4 class="mr-md-3 pointer pb-1 active js-element">Apie</h4>
                     </a>
                     <a href="#section-products">
-                        <h4 class="mr-md-3 animated visibility-hidden js-element">Sėkmės istorijos</h4>
+                        <h4 class="mr-md-3 s-element">Sėkmės istorijos</h4>
                     </a>
                     <a href="#section-contacts">
-                        <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
+                        <h4 class="pointer js-element">Kontaktai</h4>
                     </a>
                 </div>
 
@@ -28,76 +28,29 @@
                     <div class="col-12">
                         <div id="logo-animated" class="logo-animated"></div>
                     </div>
-                    <div class="col-12 mt-1">
-                        <h2 class="text-super-big text-bold text-red fadeIn animated">Statybų ekspertai</h2>
+                    <div class="col-12 mt-1 visibility-hidden animated js-about-title-wrapper">
+                        <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
                     </div>
-                    <div class="col-1 mt-5">
-                        <div id="about-text-beam-animated" class="about-text-beam-animated"></div>
-                    </div>
-                    <div class="col-6 mt-5">
-                        <p class="text-bigger text-red text-font-light fadeIn animated">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
-                        </p>
+                    <div class="offset-lg-1 col-10 col-sm-5 col-md-5 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
+                        <div class="about-text-beam mr-3 mt-2"></div>
+                        <div>
+                            <p class="text-bigger text-red text-font-light fadeIn animated m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div id="about-house-animated" class="about-house-animated">
+                <div id="about-house-animated" class="about-house-animated d-none animated"></div>
 
-                </div>
-
-
-<!--                <div class="row about-icons-wrapper mb-5 pb-5">-->
-<!---->
-<!--                    <div class="col-12 col-sm-6 mt-4">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
-<!--                                <div id="namas-icon" class="about-icon"></div>-->
-<!--                            </div>-->
-<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-namas-icon-text animated pt-md-3">-->
-<!--                                <p class="text-big text-font-light pl-2">Gyvenamųjų namų statyba</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-12 col-sm-6 mt-4">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
-<!--                                <div id="rekonstrukcija-icon" class="about-icon"></div>-->
-<!--                            </div>-->
-<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-rekonstrukcija-icon-text animated pt-md-3">-->
-<!--                                <p class="text-big text-font-light pl-2">Rekonstrukcija</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-12 col-sm-6 mt-4">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
-<!--                                <div id="komercija-icon" class="about-icon"></div>-->
-<!--                            </div>-->
-<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-komercija-icon-text animated pt-md-3">-->
-<!--                                <p class="text-big text-font-light pl-2">Komercinės paskirties pastatų statyba</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-12 col-sm-6 mt-4">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-3 col-sm-4 col-md-12 col-lg-3">-->
-<!--                                <div id="apdaila-icon" class="about-icon"></div>-->
-<!--                            </div>-->
-<!--                            <div class="col-9 col-sm-8 col-md-12 col-lg-9 visibility-hidden about-icon-text js-apdaila-icon-text animated pt-md-3">-->
-<!--                                <p class="text-big text-font-light pl-2">Apdaila</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                </div>-->
-
-                <div class="about-contacts-wrapper text-center text-sm-left mt-4 d-none d-md-block">
+                <div class="about-contacts-wrapper js-about-contacts-wrapper text-center text-sm-left mt-4 d-none animated">
                     <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">
-                        <span class="mr-3 mr-md-5 animated visibility-hidden js-about-slide-up">+3706 000000</span>
-                        <span class="animated visibility-hidden js-about-slide-up">info@statybuekspertai.lt</span>
+                        <span class="mr-3 mr-md-5 js-about-slide-up">+3706 000000</span>
+                        <span class="js-about-slide-up">info@statybuekspertai.lt</span>
                     </p>
+                </div>
+
+                <div class="col-12 about-contacts-wrapper-mobile js-about-contacts-wrapper-mobile animated visibility-hidden d-lg-none">
+                    <p>info@statybuekspertai.lt +3706 000000</p>
                 </div>
 
             </div>
