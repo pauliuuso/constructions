@@ -1,4 +1,4 @@
-var baseTimeout = 50;
+var baseTimeout = 100;
 var aboutLoaded = false;
 
 function showAboutContents()

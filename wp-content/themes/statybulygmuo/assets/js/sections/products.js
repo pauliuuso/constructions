@@ -4,7 +4,7 @@ function showProductsContents() {
     if(!productsLoaded)
     {
         productsLoaded = true;
-        showElement($('#construction-gallery .frame'), 'fadeIn', 0);
+        showElement($('#construction-gallery .frame'), 'fadeIn', baseTimeout);
         showElement($('.js-gallery-item-wrapper'), 'fadeInLeft', baseTimeout * 2);
         showElement($('.js-gallery-item-info-wrapper'), 'fadeInLeft', baseTimeout * 2);
         showElement($('.js-gallery-logo-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 4);

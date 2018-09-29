@@ -4,6 +4,11 @@
     background: white;
     padding: 80px 60px 0;
 
+    @include media-breakpoint-down(md)
+    {
+        padding-top: 0;
+    }
+
     @include media-breakpoint-down(sm)
     {
         padding: 0;

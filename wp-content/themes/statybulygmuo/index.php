@@ -31,10 +31,10 @@
                     <div class="col-12 mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
                         <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
                     </div>
-                    <div class="offset-lg-1 col-10 col-sm-5 col-md-5 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
-                        <div class="about-text-beam mr-3 mt-2"></div>
+                    <div class="offset-xl-1 col-10 col-sm-5 col-md-6 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
+                        <div class="about-text-beam mr-3 mt-3"></div>
                         <div>
-                            <p class="text-bigger text-red text-font-light fadeIn animated m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
+                            <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
                             </p>
                         </div>
                     </div>

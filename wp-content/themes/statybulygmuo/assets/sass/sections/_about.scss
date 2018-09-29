@@ -42,6 +42,10 @@
                 }
             }
 
+            .about-text {
+                line-height: 1.7;
+            }
+
             .logo-animated {
                 width: 205px;
                 height: 101px;
@@ -55,7 +59,7 @@
             .about-text-beam {
                 border: 5px solid $red;
                 width: 1px;
-                height: 97%;
+                height: 82%;
                 float: left;
                 border-radius: 5px;
 
