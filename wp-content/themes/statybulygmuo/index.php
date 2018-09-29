@@ -28,7 +28,7 @@
                     <div class="col-12">
                         <div id="logo-animated" class="logo-animated"></div>
                     </div>
-                    <div class="col-12 mt-1 visibility-hidden animated js-about-title-wrapper">
+                    <div class="col-12 mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
                         <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
                     </div>
                     <div class="offset-lg-1 col-10 col-sm-5 col-md-5 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
