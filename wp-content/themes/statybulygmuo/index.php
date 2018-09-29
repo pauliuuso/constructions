@@ -61,22 +61,21 @@
 
         <section id="construction-gallery" data-anchor="section-products" class="section col-12 construction-gallery snap mt-5 full-height">
 
-            <div class="frame">
+            <div class="frame visibility-hidden animated">
 
-                <div class="logo-wrapper pl-sm-4 d-none d-md-block">
-                    <img src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                    <h2 class="text-big text-uppercase ml-2 ml-md-4 mt-5 pr-md-4">Sėkmės istorijos</h2>
+                <div class="logo-wrapper d-none animated js-gallery-logo-wrapper">
+                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4">Sėkmės istorijos</h2>
                 </div>
 
-                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4">
+                <div class="menu-wrapper js-gallery-menu-wrapper pl-4 pr-4 d-none animated">
                     <a href="#section-about">
-                        <h4 class="mr-md-3 pointer pb-1 animated visibility-hidden js-element">Apie</h4>
+                        <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
                     </a>
                     <a href="#section-products">
-                        <h4 class="mr-md-3 animated visibility-hidden js-element active">Sėkmės istorijos</h4>
+                        <h4 class="mr-md-3 s-element active">Sėkmės istorijos</h4>
                     </a>
                     <a href="#section-contacts">
-                        <h4 class="pointer animated visibility-hidden js-element">Kontaktai</h4>
+                        <h4 class="pointer js-element">Kontaktai</h4>
                     </a>
                 </div>
 
@@ -91,13 +90,13 @@
 
                             foreach($posts as $post): setup_postdata($post)
                                 ?>
-                                <div class="ml-2 mr-2 ml-md-4 mr-md-4 gallery-item-wrapper">
+                                <div class="ml-2 mr-2 ml-md-4 mr-md-4 gallery-item-wrapper visibility-hidden animated js-gallery-item-wrapper">
                                     <div class="curtain"></div>
 
                                     <div class="gallery-item-image background-center" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
-                                    <div class="gallery-item-info-wrapper">
-                                        <h4 class="text-big text-uppercase text-bold mt-3"><?php the_title(); ?></h4>
-                                        <div class="text-medium"><?php wp_strip_all_tags(the_excerpt()); ?></div>
+                                    <div class="gallery-item-info-wrapper js-gallery-item-info-wrapper visibility-hidden animated">
+                                        <h4 class="text-big text-uppercase text-bold text-red mt-3"><?php the_title(); ?></h4>
+                                        <div class="text-medium text-red"><?php wp_strip_all_tags(the_excerpt()); ?></div>
                                     </div>
                                 </div>
                             <?php endforeach; ?>

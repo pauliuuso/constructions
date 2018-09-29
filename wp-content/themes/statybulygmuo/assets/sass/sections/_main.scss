@@ -36,7 +36,7 @@ p, span, h1, h2, h3, h4, h5 {
   }
 
   @include media-breakpoint-down(sm) {
-    font-size: 14px;
+    font-size: 24px;
     line-height: 20px;
   }
 }
@@ -48,6 +48,10 @@ p, span, h1, h2, h3, h4, h5 {
 
 .text-red {
   color: $red;
+
+  p {
+    color: $red;
+  }
 }
 
 .text-bigger {
@@ -67,6 +71,11 @@ p, span, h1, h2, h3, h4, h5 {
 
 .text-medium {
   font-size: 26px;
+
+  @include media-breakpoint-down(sm)
+  {
+    font-size: 16px;
+  }
 }
 
 .text-font-light {
