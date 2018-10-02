@@ -6,62 +6,60 @@
 
         <section id="construction-about" data-anchor="section-about" class="col-12 construction-about section">
 
-            <div class="frame visibility-hidden animated">
+            <div class="logo-wrapper d-none animated js-about-logo-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/svg/logo_with_text.svg">
+            </div>
 
-                <div class="logo-wrapper d-none animated js-about-logo-wrapper">
-                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4">Apie</h2>
-                </div>
+            <div class="logo-wrapper d-md-none animated">
+                <img src="<?php bloginfo('template_url'); ?>/svg/logotipas.svg">
+            </div>
 
-                <div class="menu-wrapper js-about-menu-wrapper pl-4 pr-4 d-none animated">
-                    <a href="#section-about">
-                        <h4 class="mr-md-3 pointer pb-1 active js-element">Apie</h4>
-                    </a>
-                    <a href="#section-products">
-                        <h4 class="mr-md-3 s-element">Sėkmės istorijos</h4>
-                    </a>
-                    <a href="#section-contacts">
-                        <h4 class="pointer js-element">Kontaktai</h4>
-                    </a>
-                </div>
+            <div class="menu-wrapper js-about-menu-wrapper d-none animated">
+                <a href="#section-about">
+                    <h4 class="mr-md-3 pointer pb-1 active js-element">Apie</h4>
+                </a>
+                <a href="#section-products">
+                    <h4 class="mr-md-3 s-element">Sėkmės istorijos</h4>
+                </a>
+                <a href="#section-contacts">
+                    <h4 class="pointer js-element">Kontaktai</h4>
+                </a>
+            </div>
 
-                <div class="row about-text-wrapper">
-                    <div class="col-12">
-                        <div id="logo-animated" class="logo-animated"></div>
-                    </div>
-                    <div class="col-12 mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
-                        <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
-                    </div>
-                    <div class="offset-xl-1 col-10 col-sm-5 col-md-6 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
-                        <div class="about-text-beam mr-3 mt-3"></div>
-                        <div>
-                            <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
-                            </p>
+            <div class="about-top-line js-about-top-line d-none visibility-hidden animated"></div>
+            <div class="about-bottom-left-line js-about-bottom-left-line visibility-hidden animated"></div>
+
+            <div class="row height-100">
+
+                <div class="col-8 col-sm-7 col-lg-6">
+                    <div class="about-text-wrapper">
+                        <div class="mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
+                            <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
+                        </div>
+                        <div class="row">
+                            <div class="offset-lg-1 col-12 col-lg-11 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
+                                <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="about-house-animated" class="about-house-animated d-none animated"></div>
-
-                <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-md-none"></div>
-
-                <div class="about-contacts-wrapper js-about-contacts-wrapper text-center text-sm-left mt-4 d-none animated">
-                    <p class="text-bigger p-0 m-0 pl-sm-4 pr-sm-4">
-                        <span class="mr-3 mr-md-5 js-about-slide-up">+3706 000000</span>
-                        <span class="js-about-slide-up">info@statybuekspertai.lt</span>
-                    </p>
+                <div class="col-4 col-sm-5 col-lg-6">
+                    <div id="about-house-animated" class="about-house-animated d-none animated"></div>
+                    <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-lg-none"></div>
                 </div>
 
-                <div class="col-12 about-contacts-wrapper-mobile js-about-contacts-wrapper-mobile animated visibility-hidden d-lg-none">
-                    <p>info@statybuekspertai.lt +3706 000000</p>
+                <div class="about-footer-wrapper js-about-footer-wrapper visibility-hidden animated">
+                    <p class="text-bigger p-0 m-0">APIE</p>
                 </div>
-
             </div>
 
         </section>
 
         <section id="construction-gallery" data-anchor="section-products" class="section construction-gallery snap mt-5 full-height">
 
-            <div class="menu-wrapper gallery-menu-wrapper js-gallery-menu-wrapper pl-4 pr-4 animated">
+            <div class="menu-wrapper js-gallery-menu-wrapper animated">
                 <a href="#section-about">
                     <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
                 </a>

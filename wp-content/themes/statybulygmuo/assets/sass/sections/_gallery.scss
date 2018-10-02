@@ -15,14 +15,7 @@
         padding-top: 70px;
     }
 
-    .gallery-menu-wrapper {
-        right: 80px !important;
-        top: 60px !important;
-        background: none !important;
-    }
-
     .slide {
-
         height: 100%;
         width: 100%;
         position: relative;
@@ -46,9 +39,9 @@
             .gallery-menu-top-line
             {
                 position: absolute;
-                right: 106px;
+                right: 82px;
                 top: 0;
-                height: 50px;
+                height: 100px;
                 width: 1px;
                 background: $blue;
             }
@@ -73,7 +66,7 @@
 
             .next-story-wrapper {
                 position: absolute;
-                right: 106px;
+                right: 335px;
                 bottom: 60px;
             }
 
@@ -81,7 +74,7 @@
                 position: absolute;
                 right: 0;
                 bottom: 95px;
-                width: 90px;
+                width: 325px;
                 background: $blue;
                 height: 1px;
             }

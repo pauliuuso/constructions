@@ -106,9 +106,8 @@ p, span, h1, h2, h3, h4, h5 {
 
 .menu-wrapper {
   position: absolute;
-  right: 20px;
-  top: -17px;
-  background: white;
+  right: 80px;
+  top: 110px;
   z-index: 2;
 
   h4 {
@@ -149,28 +148,5 @@ p, span, h1, h2, h3, h4, h5 {
     background: url("img/arrow-right.png") no-repeat !important;
     border: none;
     z-index: 11;
-  }
-}
-
-.logo-wrapper {
-  position: absolute;
-  background: white;
-  top: -67px;
-  left: 50px;
-  max-height: 120px;
-
-  img {
-    float: left;
-    display: inline-block;
-  }
-
-  h2 {
-    display: inline-block;
-    color: $blue;
-    mso-line-spacing: normal;
-  }
-
-  @include media-breakpoint-down(sm) {
-    left: 0;
   }
 }
