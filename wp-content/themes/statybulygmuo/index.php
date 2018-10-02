@@ -59,53 +59,72 @@
 
         </section>
 
-        <section id="construction-gallery" data-anchor="section-products" class="section col-12 construction-gallery snap mt-5 full-height">
+        <section id="construction-gallery" data-anchor="section-products" class="section construction-gallery snap mt-5 full-height">
 
-            <div class="frame visibility-hidden animated">
-
-                <div class="logo-wrapper d-none animated js-gallery-logo-wrapper">
-                    <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4">Sėkmės istorijos</h2>
-                </div>
-
-                <div class="menu-wrapper js-gallery-menu-wrapper pl-4 pr-4 d-none animated">
-                    <a href="#section-about">
-                        <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
-                    </a>
-                    <a href="#section-products">
-                        <h4 class="mr-md-3 s-element active">Sėkmės istorijos</h4>
-                    </a>
-                    <a href="#section-contacts">
-                        <h4 class="pointer js-element">Kontaktai</h4>
-                    </a>
-                </div>
-
-                <?php if(have_posts()) : ?>
-
-                    <div class="gallery-main-wrapper">
-                        <div class="col-12 slick-slider">
-                            <?php
-                            global $post;
-                            $args = ['category' => 'products'];
-                            $posts = get_posts($args);
-
-                            foreach($posts as $post): setup_postdata($post)
-                                ?>
-                                <div class="ml-2 mr-2 ml-md-4 mr-md-4 gallery-item-wrapper visibility-hidden animated js-gallery-item-wrapper">
-                                    <div class="curtain"></div>
-
-                                    <div class="gallery-item-image background-center" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
-                                    <div class="gallery-item-info-wrapper js-gallery-item-info-wrapper visibility-hidden animated">
-                                        <h4 class="text-big text-uppercase text-bold text-red mt-3"><?php the_title(); ?></h4>
-                                        <div class="text-medium text-red"><?php wp_strip_all_tags(the_excerpt()); ?></div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                <?php endif; ?>
-
+            <div class="menu-wrapper gallery-menu-wrapper js-gallery-menu-wrapper pl-4 pr-4 animated">
+                <a href="#section-about">
+                    <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
+                </a>
+                <a href="#section-products">
+                    <h4 class="mr-md-3 js-element active">Sėkmės istorijos</h4>
+                </a>
+                <a href="#section-contacts">
+                    <h4 class="pointer js-element">Kontaktai</h4>
+                </a>
             </div>
 
+            <?php if(have_posts()) : ?>
+            <?php
+                global $post;
+                $args = ['category' => 'products'];
+                $posts = get_posts($args);
+
+                foreach($posts as $key=>$post): setup_postdata($post)
+            ?>
+
+                <div class="col-12 slide <?php if($key == 1) echo 'active' ?>">
+
+
+                        <div class="logo-wrapper d-none animated js-gallery-logo-wrapper">
+                            <h2 class="text-bigger text-uppercase pl-4 mt-5 pr-4">Sėkmės istorijos</h2>
+                        </div>
+
+                        <div class="row height-100">
+
+                            <div class="col-6 gallery-image-wrapper background-center" style="background-image: url(<?php the_post_thumbnail_url(); ?>);">
+                                <img class="gallery-image-slash" src="<?php bloginfo('template_url'); ?>/svg/trikampis.svg">
+                            </div>
+
+                            <div class="col-6 gallery-right">
+
+                                <div class="gallery-menu-top-line"></div>
+
+
+
+                                <div class="gallery-text-wrapper">
+                                    <h2 class="text-big text-red text-bold"><?php the_title(); ?></h2>
+                                    <div class="gallery-text-inner-wrapper ml-5">
+                                        <p class="gallery-beam mt-5"></p>
+                                        <span class="text-medium text-red"><?php the_excerpt() ?></span>
+                                    </div>
+                                    <div class="gallery-date-wrapper ml-5">
+                                        <span class="text-medium text-red"><?php the_field('year') ?></span>
+                                    </div>
+                                </div>
+
+                                <div class="next-story-wrapper">
+                                    <p class="text-medium text-bold">KITA ISTORIJA</p>
+                                </div>
+
+                                <div class="next-story-line"></div>
+
+                            </div>
+                        </div>
+
+                </div>
+
+            <?php endforeach; ?>
+            <?php endif; ?>
 
         </section>
 
