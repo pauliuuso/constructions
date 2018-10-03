@@ -4,10 +4,16 @@ function showProductsContents() {
     if(!productsLoaded)
     {
         productsLoaded = true;
-        // showElement($('#construction-gallery .frame'), 'fadeIn', baseTimeout);
-        // showElement($('.js-gallery-item-wrapper'), 'fadeInLeft', baseTimeout * 2);
-        // showElement($('.js-gallery-item-info-wrapper'), 'fadeInLeft', baseTimeout * 2);
-        // showElement($('.js-gallery-logo-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 4);
-        // showElement($('.js-gallery-menu-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 5);
+        showElement($('.js-gallery-menu-wrapper'), 'fadeInDown d-lg-block', baseTimeout * 4);
     }
+}
+
+function showSlide(element) {
+    showElement($($(element).find('.js-gallery-image-wrapper')), 'fadeInLeft', 0);
+    showElement($($(element).find('.js-gallery-title')), 'fadeInLeft', baseTimeout);
+    showElement($($(element).find('.js-gallery-menu-top-line')), 'fadeInDown', baseTimeout);
+    showElement($($(element).find('.js-gallery-description')), 'fadeInLeft', baseTimeout * 2);
+    showElement($($(element).find('.js-gallery-next-year')), 'fadeInRight', baseTimeout * 3);
+    showElement($($(element).find('.js-next-story-wrapper')), 'fadeInRight', baseTimeout * 4);
+    showElement($($(element).find('.js-next-story-line')), 'fadeInRight', baseTimeout * 5);
 }

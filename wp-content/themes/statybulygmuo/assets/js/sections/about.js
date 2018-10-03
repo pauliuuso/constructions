@@ -6,7 +6,6 @@ function showAboutContents()
     if(!aboutLoaded)
     {
         aboutLoaded = true;
-        // showElement($('#construction-about .frame'), 'fadeIn', baseTimeout);
         showElement($('.js-about-title-wrapper'), 'fadeIn', baseTimeout * 3);
         showElement($('.js-about-text-wrapper'), 'fadeIn', baseTimeout * 4);
         showElement($('#about-house-animated'), 'fadeIn d-lg-block', baseTimeout * 6);
