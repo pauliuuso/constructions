@@ -31,7 +31,7 @@
 
             <div class="row height-100">
 
-                <div class="col-8 col-sm-7 col-lg-6">
+                <div class="col-8 col-sm-10 col-lg-6">
                     <div class="about-text-wrapper">
                         <div class="mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
                             <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 col-sm-5 col-lg-6">
+                <div class="col-4 col-sm-2 col-lg-6">
                     <div id="about-house-animated" class="about-house-animated d-none animated"></div>
                     <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-lg-none"></div>
                 </div>
