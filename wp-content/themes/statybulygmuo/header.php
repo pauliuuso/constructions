@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="<?php bloginfo('description'); ?>">
         <?php wp_head(); ?>
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/sass/core/fullpage.css">
         <script type="text/javascript">
             var theme_url = "<?php echo get_stylesheet_directory_uri(); ?>";

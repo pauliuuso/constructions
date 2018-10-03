@@ -121,40 +121,57 @@
 
         <section id="construction-contacts" data-anchor="section-contacts" class="section col-12 construction-contacts full-height">
 
-            <div class="frame">
-                <div class="row contacts-form-wrapper mb-5">
-                    <div class="col-12 col-md-5 offset-md-1">
-                        <h4 class="text-big">Susisiekite su mumis!</h4>
-                        <?php
+            <div class="logo-wrapper animated js-contacts-logo-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/svg/logo_with_text.svg">
+            </div>
+
+            <div class="logo-wrapper d-md-none animated">
+                <img src="<?php bloginfo('template_url'); ?>/svg/logotipas.svg">
+            </div>
+
+            <div class="menu-wrapper js-contacts-menu-wrapper animated">
+                <a href="#section-about">
+                    <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
+                </a>
+                <a href="#section-products">
+                    <h4 class="mr-md-3 s-element">Sėkmės istorijos</h4>
+                </a>
+                <a href="#section-contacts">
+                    <h4 class="pointer js-element active">Kontaktai</h4>
+                </a>
+            </div>
+
+            <div class="contacts-top-line js-contacts-top-line animated"></div>
+            <div class="contacts-bottom-left-line js-contacts-bottom-left-line animated"></div>
+
+            <div class="row">
+                <div class="contacts-left col-12 col-md-8 col-xl-6">
+                    <div class="contacts-text-wrapper">
+
+                        <div class="contacts-title-wrapper">
+                            <h4 class="text-super-big text-bold text-red">Susisiekite su mumis!</h4>
+                        </div>
+
+                        <div class="contacts-form-wrapper">
+                            <?php
                             $content_post = get_page_by_path( 'contacts' );
                             $content = $content_post->post_content;
                             $content = apply_filters('the_content', $content);
                             $content = str_replace(']]>', ']]&gt;', $content);
                             echo $content;
-                        ?>
+                            ?>
+                        </div>
 
                     </div>
-                    <div class="col-12 col-md-6">
-
-                    </div>
-                </div>
-
-                <div class="menu-wrapper pl-3 pr-3">
-                    <h4 class="mr-3 pointer">Apie</h4>
-                    <h4 class="mr-3 pb-1 pointer">Sėkmės istorijos</h4>
-                    <h4 class="pointer active">Kontaktai</h4>
-                </div>
-
-                <div class="logo-wrapper d-none d-md-block">
-                    <img class="pl-4 mr-5" src="<?php bloginfo('template_url'); ?>/img/statybu_ekspertai_logo.png">
-                    <h2 class="text-big text-uppercase mt-5 pr-4">Kontaktai</h2>
                 </div>
             </div>
 
+            <div class="contacts-footer-wrapper js-contacts-footer-wrapper animated">
+                <p class="text-bigger p-0 m-0">KONTAKTAI</p>
+            </div>
+
         </section>
-
     </div>
-
 </div>
 
 <script>

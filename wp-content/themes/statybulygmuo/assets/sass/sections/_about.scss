@@ -15,19 +15,6 @@
         padding: 0;
     }
 
-    .logo-wrapper {
-        position: absolute;
-        background: white;
-        top: 110px;
-        left: 80px;
-        width: 150px;
-
-        @include media-breakpoint-down(sm) {
-            left: 30px;
-            top: 30px;
-        }
-    }
-
     .about-top-line {
         position: absolute;
         right: 82px;
@@ -35,6 +22,10 @@
         height: 100px;
         width: 1px;
         background: $blue;
+
+        @include media-breakpoint-down(md) {
+            height: 70px;
+        }
     }
 
     .about-bottom-left-line {

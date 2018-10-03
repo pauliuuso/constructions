@@ -23,7 +23,7 @@ gulp.task("sass", function() {
                 outputStyle: "compressed"
             })
         )
-        .pipe(rename("style.min.css"))
+        .pipe(rename("style.css"))
         .pipe(gulp.dest(""));
 });
 

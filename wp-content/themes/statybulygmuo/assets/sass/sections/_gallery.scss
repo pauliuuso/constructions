@@ -44,6 +44,10 @@
                 height: 100px;
                 width: 1px;
                 background: $blue;
+
+                @include media-breakpoint-down(md) {
+                    height: 70px;
+                }
             }
 
             .gallery-text-wrapper {

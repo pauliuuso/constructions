@@ -11,7 +11,6 @@ $(window).ready(function()
             showPage(destination.anchor);
         },
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-            console.log(slideAnchor.item);
             showSlide(slideAnchor.item);
         },
         verticalCentered: false
