@@ -23,6 +23,9 @@ $(window).ready(function()
         else if(section === 'section-products') {
             showProductsContents();
         }
+        else if(section === 'section-contacts') {
+            showContactsContents();
+        }
     }
 
 });

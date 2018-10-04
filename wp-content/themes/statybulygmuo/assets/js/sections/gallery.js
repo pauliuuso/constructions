@@ -11,9 +11,9 @@ function showProductsContents() {
 function showSlide(element) {
     showElement($($(element).find('.js-gallery-image-wrapper')), 'fadeInLeft', 0);
     showElement($($(element).find('.js-gallery-title')), 'fadeInLeft', baseTimeout);
-    showElement($($(element).find('.js-gallery-menu-top-line')), 'fadeInDown', baseTimeout);
+    showElement($($(element).find('.js-gallery-menu-top-line')), 'fadeInDown d-md-block', baseTimeout);
     showElement($($(element).find('.js-gallery-description')), 'fadeInLeft', baseTimeout * 2);
     showElement($($(element).find('.js-gallery-next-year')), 'fadeInRight', baseTimeout * 3);
-    showElement($($(element).find('.js-next-story-wrapper')), 'fadeInRight', baseTimeout * 4);
-    showElement($($(element).find('.js-next-story-line')), 'fadeInRight', baseTimeout * 5);
+    showElement($($(element).find('.js-next-story-wrapper')), 'fadeInRight d-md-block', baseTimeout * 4);
+    showElement($($(element).find('.js-next-story-line')), 'fadeInRight d-md-block', baseTimeout * 5);
 }

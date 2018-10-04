@@ -12,7 +12,6 @@
     @include media-breakpoint-down(sm)
     {
         padding: 0;
-        padding-top: 70px;
     }
 
     .slide {
@@ -30,11 +29,19 @@
                 bottom: 0;
                 height: 100%;
             }
+
+            @include media-breakpoint-down(sm) {
+                height: 50%;
+            }
         }
 
         .gallery-right {
 
             padding-right: 80px;
+
+            @include media-breakpoint-down(sm) {
+                padding-right: 15px;
+            }
 
             .gallery-menu-top-line
             {
@@ -53,25 +60,51 @@
             .gallery-text-wrapper {
                 margin-top: 300px;
 
-                .gallery-text-inner-wrapper {
-                    max-width: 650px;
+                @include media-breakpoint-down(lg) {
+                    margin-top: 250px;
+                }
+
+                @include media-breakpoint-down(md) {
+                    margin-top: 130px;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    margin-top: 0;
                 }
 
                 .gallery-beam {
                     width: 140px;
                     border: 5px solid $red;
                     border-radius: 5px;
+
+                    @include media-breakpoint-down(sm) {
+                        width: 60px;
+                        border: 1.5px solid $red;
+                    }
                 }
             }
 
             .gallery-date-wrapper {
                 margin-top: 100px;
+
+                @include media-breakpoint-down(lg) {
+                    margin-top: 50px;
+                }
+
+                @include media-breakpoint-down(md) {
+                    margin-top: 30px;
+                }
             }
 
             .next-story-wrapper {
                 position: absolute;
                 right: 335px;
                 bottom: 60px;
+
+                @include media-breakpoint-down(md) {
+                    bottom: 33px;
+                    right: 250px;
+                }
             }
 
             .next-story-line {
@@ -81,6 +114,11 @@
                 width: 325px;
                 background: $blue;
                 height: 1px;
+
+                @include media-breakpoint-down(md) {
+                    bottom: 65px;
+                    width: 240px;
+                }
             }
         }
     }

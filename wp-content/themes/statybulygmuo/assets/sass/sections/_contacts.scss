@@ -49,16 +49,73 @@
         margin-top: 180px;
         line-height: 1.7;
 
-        @include media-breakpoint-down(md)
-        {
+        @include media-breakpoint-down(md) {
             margin-top: 100px;
             margin-bottom: 0;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
         }
 
         .contacts-title-wrapper {
             @include media-breakpoint-down(sm)
             {
                 padding: 0 30px;
+            }
+        }
+    }
+
+    .contacts-right {
+        padding-top: 300px;
+
+        @include media-breakpoint-down(lg) {
+            padding-top: 200px;
+        }
+
+        @include media-breakpoint-down(md) {
+            padding-top: 130px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding-top: 15px;
+        }
+
+        .contacts-icon-wrapper {
+
+            @include media-breakpoint-down(sm) {
+                padding-left: 30px;
+            }
+
+            .icon {
+                width: 150px;
+                float: left;
+
+                @include media-breakpoint-down(lg) {
+                    float: unset;
+                    text-align: center;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    width: 50px;
+                    float: left;
+                }
+            }
+
+            .text {
+                float: left;
+
+                @include media-breakpoint-down(lg) {
+                    width: 100%;
+                    float: unset;
+                    text-align: center;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    width: auto;
+                    float: left;
+                    text-align: left;
+                }
             }
         }
     }
@@ -78,14 +135,14 @@
                 position: relative;
 
                 @include media-breakpoint-down(md) {
-                    height: 40px;
+                    height: 30px;
                 }
 
                 &.textarea {
                     height: 230px;
 
                     @include media-breakpoint-down(md) {
-                        height: 180px;
+                        height: 150px;
                     }
                 }
 
@@ -108,6 +165,10 @@
                     @include media-breakpoint-down(md) {
                         font-size: 16px;
                     }
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 14px;
+                    }
                 }
 
                 input {
@@ -116,9 +177,11 @@
                     border-radius: 10px;
                     width: 100%;
                     padding: 0 15px;
+                    color: $blue;
 
                     @include media-breakpoint-down(md) {
                         height: 40px;
+                        border: 2px solid $red;
                     }
                 }
 
@@ -128,9 +191,11 @@
                     width: 100%;
                     padding: 15px;
                     height: 200px;
+                    color: $blue;
 
                     @include media-breakpoint-down(md) {
-                        height: 150px;
+                        height: 130px;
+                        border: 2px solid $red;
                     }
                 }
 
@@ -155,6 +220,7 @@
 
                     @include media-breakpoint-down(md) {
                         font-size: 16px;
+                        border: 2px solid $red;
                     }
 
                     @include media-breakpoint-down(sm) {
