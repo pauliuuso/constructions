@@ -78,7 +78,9 @@
         }
 
         @include media-breakpoint-down(sm) {
-            padding-top: 15px;
+            position: absolute;
+            bottom: 15px;
+            padding-top: 0;
         }
 
         .contacts-icon-wrapper {
@@ -88,12 +90,14 @@
             }
 
             .icon {
-                width: 150px;
+                width: 100px;
                 float: left;
 
-                @include media-breakpoint-down(lg) {
+                @include media-breakpoint-down(md) {
                     float: unset;
                     text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
 
                 @include media-breakpoint-down(sm) {
@@ -105,7 +109,7 @@
             .text {
                 float: left;
 
-                @include media-breakpoint-down(lg) {
+                @include media-breakpoint-down(md) {
                     width: 100%;
                     float: unset;
                     text-align: center;
@@ -135,14 +139,14 @@
                 position: relative;
 
                 @include media-breakpoint-down(md) {
-                    height: 30px;
+                    height: 40px;
                 }
 
                 &.textarea {
                     height: 230px;
 
                     @include media-breakpoint-down(md) {
-                        height: 150px;
+                        height: 160px;
                     }
                 }
 

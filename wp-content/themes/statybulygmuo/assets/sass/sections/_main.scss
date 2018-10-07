@@ -72,9 +72,14 @@ p, span, h1, h2, h3, h4, h5 {
   font-size: 32px;
   line-height: 32px;
 
-  @include media-breakpoint-down(md)
+  @include media-breakpoint-down(lg)
   {
     font-size: 24px;
+  }
+
+  @include media-breakpoint-down(md)
+  {
+    font-size: 18px;
   }
 
   @include media-breakpoint-down(sm)
@@ -202,6 +207,7 @@ p, span, h1, h2, h3, h4, h5 {
       left: 30px;
       top: 80%;
       display: block;
+      background: url("svg/left_arrow_mobile.svg") no-repeat !important;
     }
   }
 
@@ -221,6 +227,7 @@ p, span, h1, h2, h3, h4, h5 {
       width: 18px;
       right: 30px;
       top: 80%;
+      background: url("svg/right_arrow_mobile.svg") no-repeat !important;
     }
   }
 }

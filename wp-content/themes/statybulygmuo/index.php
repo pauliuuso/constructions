@@ -86,6 +86,7 @@
 
                             <div class="col-12 col-md-6 gallery-image-wrapper background-center js-gallery-image-wrapper visibility-hidden animated" style="background-image: url(<?php the_post_thumbnail_url(); ?>);">
                                 <img class="gallery-image-slash d-none d-md-block" src="<?php bloginfo('template_url'); ?>/svg/trikampis.svg">
+                                <img class="gallery-image-slash-mobile d-md-none" src="<?php bloginfo('template_url'); ?>/svg/trikampis_mobile.svg">
                             </div>
 
                             <div class="col-12 col-md-6 gallery-right">
@@ -147,7 +148,7 @@
 
             <div class="row">
 
-                <div class="contacts-left col-12 col-md-8">
+                <div class="contacts-left col-12 col-md-8 col-lg-6">
                     <div class="contacts-text-wrapper">
 
                         <div class="contacts-title-wrapper js-contacts-title-wrapper visibility-hidden animated">
@@ -167,23 +168,23 @@
                     </div>
                 </div>
 
-                <div class="contacts-right col-12 col-md-4 col-xl-4">
+                <div class="contacts-right col-12 col-md-4 col-lg-6 col-xl-5 offset-xl-1">
                     <div class="contacts-icon-wrapper">
                         <div class="row">
                             <div class="col-12">
                                 <div class="icon">
-                                    <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/phone_icon.png">
+                                    <div id="email-icon-animated" class="email-icon-animated"></div>
                                 </div>
-                                <div class="text">
-                                    <p class="text-bigger pt-2 pt-xl-5 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
+                                <div class="text visibility-hidden animated js-email-icon-text">
+                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
                                 </div>
                             </div>
                             <div class="col-12 mt-md-3">
                                 <div class="icon">
-                                    <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/mail_icon.png">
+                                    <div id="phone-icon-animated" class="phone-icon-animated"></div>
                                 </div>
-                                <div class="text">
-                                    <p class="text-bigger pt-2 pt-xl-5 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
+                                <div class="text visibility-hidden animated js-phone-icon-text">
+                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
                                 </div>
                             </div>
                         </div>
