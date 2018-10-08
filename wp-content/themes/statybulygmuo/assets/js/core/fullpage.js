@@ -80,11 +80,11 @@
     var SLIDES_NAV_LINK_SEL =   SLIDES_NAV_SEL + ' a';
     var SLIDES_ARROW =          'fp-controlArrow';
     var SLIDES_ARROW_SEL =      '.' + SLIDES_ARROW;
-    var SLIDES_PREV =           'fp-prev';
+    var SLIDES_PREV =           'fp-prev visibility-hidden animated';
     var SLIDES_PREV_SEL =       '.' + SLIDES_PREV;
     var SLIDES_ARROW_PREV =     SLIDES_ARROW + ' ' + SLIDES_PREV;
     var SLIDES_ARROW_PREV_SEL = SLIDES_ARROW_SEL + SLIDES_PREV_SEL;
-    var SLIDES_NEXT =           'fp-next';
+    var SLIDES_NEXT =           'fp-next visibility-hidden animated';
     var SLIDES_NEXT_SEL =       '.' + SLIDES_NEXT;
     var SLIDES_ARROW_NEXT =     SLIDES_ARROW + ' ' + SLIDES_NEXT;
     var SLIDES_ARROW_NEXT_SEL = SLIDES_ARROW_SEL + SLIDES_NEXT_SEL;

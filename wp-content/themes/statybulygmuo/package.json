@@ -3,6 +3,7 @@
   "version": "1.0",
   "dependencies": {
     "animated-scroll-to": "^1.2.2",
+    "bootstrap": "4.0.0-alpha.6",
     "fullpage.js": "^3.0.3",
     "gulp": "latest",
     "gulp-concat": "latest",
@@ -11,8 +12,9 @@
     "gulp-rename": "latest",
     "gulp-sass": "latest",
     "gulp-sourcemaps": "latest",
-    "gulp-uglify-es": "latest",
     "gulp-uglify": "latest",
+    "gulp-uglify-es": "latest",
+    "tether": "^1.4.5",
     "vivus": "^0.4.4"
   }
 }

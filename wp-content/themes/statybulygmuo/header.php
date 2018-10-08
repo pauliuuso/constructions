@@ -12,6 +12,7 @@
             var theme_url = "<?php echo get_stylesheet_directory_uri(); ?>";
         </script>
         <script src="<?php bloginfo('template_url'); ?>/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/node_modules/tether/dist/js/tether.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/app.min.js"></script>
         <title>
             <?php bloginfo('name'); ?>

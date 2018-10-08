@@ -148,7 +148,7 @@
 
             <div class="row">
 
-                <div class="contacts-left col-12 col-md-8 col-lg-6">
+                <div class="contacts-left col-12 col-md-8 col-lg-7 col-xl-6">
                     <div class="contacts-text-wrapper">
 
                         <div class="contacts-title-wrapper js-contacts-title-wrapper visibility-hidden animated">
@@ -168,7 +168,7 @@
                     </div>
                 </div>
 
-                <div class="contacts-right col-12 col-md-4 col-lg-6 col-xl-5 offset-xl-1">
+                <div class="contacts-right col-12 col-md-4 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="contacts-icon-wrapper">
                         <div class="row">
                             <div class="col-12">
@@ -201,58 +201,19 @@
     </div>
 </div>
 
-<script>
-    $('.slick-slider').slick({
-        autoplay: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        swipe: true,
-        dots: true,
-        arrows: true,
-        centerMode: true,
-        // prevArrow: "<button type='button' class='arrow-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-        // nextArrow: "<button type='button' class='arrow-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-        responsive:
-            [{
-                breakpoint: 992,
-                settings:
-                    {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        variableWidth: true,
-                        arrows: true,
-                        swipe: true,
-                        centerMode: true
-                    }
-            },
-                {
-                    breakpoint: 768,
-                    settings:
-                        {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            variableWidth: true,
-                            swipe: true,
-                            centerMode: true
-                        }
-                },
-                {
-                    breakpoint: 576,
-                    settings:
-                        {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            variableWidth: true,
-                            swipe: true,
-                            centerMode: true
-                        }
-                }]
-    });
+<div class="modal fade" id="modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
 
-</script>
+            <div class="modal-body">
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?>

@@ -18,3 +18,42 @@ function showContactsContents()
         showElement($('.js-contacts-footer-wrapper'), 'fadeInLeft d-md-block', baseTimeout * 12);
     }
 }
+
+$(document).ready(function() {
+    var wpcf7Elm = document.querySelector( '.wpcf7' );
+
+    $(wpcf7Elm).on('submit', function() {
+        $(wpcf7Elm).find('.wpcf7-submit').addClass('inactive');
+        $(wpcf7Elm).find('.wpcf7-submit').prop('disabled', true);
+    });
+
+    wpcf7Elm.addEventListener('wpcf7mailsent', function() {
+        console.log('mailsent');
+        mailSent()
+    }, false);
+
+    wpcf7Elm.addEventListener('wpcf7invalid', function() {
+        removeInactive();
+    }, false);
+
+    wpcf7Elm.addEventListener('wpcf7mailfailed', function() {
+        $('#modal').find('.modal-body').html('Žinutės išsiųsti nepavyko, bandykite vėliau');
+        $('#modal').modal();
+        removeInactive();
+    }, false);
+});
+
+function mailSent() {
+    removeInactive();
+    var wpcf7Elm = document.querySelector( '.wpcf7');
+    $(wpcf7Elm).find('input[type=text]').val('');
+    $(wpcf7Elm).find('textarea').val('');
+    $('#modal').find('.modal-body').html('Žinutė išsiųsta sėkmingai!');
+    $('#modal').modal();
+}
+
+function removeInactive() {
+    var wpcf7Elm = document.querySelector( '.wpcf7');
+    $(wpcf7Elm).find('.wpcf7-submit').removeClass('inactive');
+    $(wpcf7Elm).find('.wpcf7-submit').prop('disabled', false);
+}
