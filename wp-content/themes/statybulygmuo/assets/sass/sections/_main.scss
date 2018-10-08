@@ -205,7 +205,7 @@ p, span, h1, h2, h3, h4, h5 {
     @include media-breakpoint-down(sm) {
       width: 18px;
       left: 30px;
-      top: 80%;
+      top: 70%;
       display: block;
       background: url("svg/left_arrow_mobile.svg") no-repeat !important;
     }
@@ -226,7 +226,7 @@ p, span, h1, h2, h3, h4, h5 {
     @include media-breakpoint-down(sm) {
       width: 18px;
       right: 30px;
-      top: 80%;
+      top: 70%;
       background: url("svg/right_arrow_mobile.svg") no-repeat !important;
     }
   }

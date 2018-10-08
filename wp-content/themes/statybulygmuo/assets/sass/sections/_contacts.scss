@@ -79,7 +79,7 @@
 
         @include media-breakpoint-down(sm) {
             position: absolute;
-            bottom: 15px;
+            bottom: 40px;
             padding-top: 0;
         }
 
@@ -140,6 +140,11 @@
 
                 @include media-breakpoint-down(md) {
                     height: 40px;
+                    margin-bottom: 25px;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    margin-bottom: 20px;
                 }
 
                 &.textarea {
@@ -171,7 +176,7 @@
                     }
 
                     @include media-breakpoint-down(sm) {
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
 
@@ -199,6 +204,11 @@
 
                     @include media-breakpoint-down(md) {
                         height: 130px;
+                        border: 2px solid $red;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        height: 120px;
                         border: 2px solid $red;
                     }
                 }

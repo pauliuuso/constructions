@@ -171,20 +171,20 @@
                 <div class="contacts-right col-12 col-md-4 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="contacts-icon-wrapper">
                         <div class="row">
-                            <div class="col-12">
-                                <div class="icon">
-                                    <div id="email-icon-animated" class="email-icon-animated"></div>
-                                </div>
-                                <div class="text visibility-hidden animated js-email-icon-text">
-                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
-                                </div>
-                            </div>
                             <div class="col-12 mt-md-3">
                                 <div class="icon">
                                     <div id="phone-icon-animated" class="phone-icon-animated"></div>
                                 </div>
                                 <div class="text visibility-hidden animated js-phone-icon-text">
                                     <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="icon">
+                                    <div id="email-icon-animated" class="email-icon-animated"></div>
+                                </div>
+                                <div class="text visibility-hidden animated js-email-icon-text">
+                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
                                 </div>
                             </div>
                         </div>
