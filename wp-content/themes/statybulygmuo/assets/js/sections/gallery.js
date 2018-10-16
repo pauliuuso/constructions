@@ -19,3 +19,21 @@ function showSlide(element) {
     showElement($('.fp-next'), 'fadeInRight', baseTimeout * 7);
     showElement($('.fp-prev'), 'fadeInLeft', baseTimeout * 7);
 }
+
+$(document).ready(function() {
+    $(".js-gallery-slideshow > div:gt(0)").hide();
+
+    var galleries = $('.js-gallery-slideshow');
+
+    for(var a = 0; a < galleries.length; a++) {
+        setInterval(function(a) {
+            $(galleries[a]).find('div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo(galleries[a]);
+        }, 3000, a);
+    }
+});
+

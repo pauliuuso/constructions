@@ -84,7 +84,16 @@
 
                         <div class="row height-100">
 
-                            <div class="col-12 col-md-6 gallery-image-wrapper background-center js-gallery-image-wrapper visibility-hidden animated" style="background-image: url(<?php the_post_thumbnail_url(); ?>);">
+                            <div class="col-12 col-md-6 gallery-image-wrapper background-center js-gallery-image-wrapper visibility-hidden animated">
+                                <div id="gallery-slideshow" class="gallery-image-slideshow-wrapper js-gallery-slideshow">
+                                    <?php if( get_field('image1')): ?>
+                                        <div class="gallery-image background-center" style="background-image: url(<?php the_field('image1'); ?>);"></div>
+                                    <?php endif ?>
+                                    <?php if( get_field('image2')): ?>
+                                        <div class="gallery-image background-center" style="background-image: url(<?php the_field('image2'); ?>);"></div>
+                                    <?php endif ?>
+                                </div>
+
                                 <img class="gallery-image-slash d-none d-md-block" src="<?php bloginfo('template_url'); ?>/svg/trikampis.svg">
                                 <img class="gallery-image-slash-mobile d-md-none" src="<?php bloginfo('template_url'); ?>/svg/trikampis_mobile.svg">
                             </div>
