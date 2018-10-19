@@ -21,7 +21,8 @@ function showSlide(element) {
 
     if($(element).attr('data-loaded') !== 'true') {
         $(element).find(".js-gallery-slideshow > div:gt(0)").hide();
-        var gallery = $(element).find(".js-gallery-slideshow").first();
+
+        var gallery = $(element).find(".js-gallery-slideshow");
 
         setInterval(function() {
             $(gallery).find('div:first')

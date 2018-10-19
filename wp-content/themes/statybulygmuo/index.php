@@ -92,6 +92,12 @@
                                     <?php if( get_field('image2')): ?>
                                         <div class="gallery-image background-center" style="background-image: url(<?php the_field('image2'); ?>);"></div>
                                     <?php endif ?>
+                                    <?php if( get_field('image3')): ?>
+                                        <div class="gallery-image background-center" style="background-image: url(<?php the_field('image3'); ?>);"></div>
+                                    <?php endif ?>
+                                    <?php if( get_field('image4')): ?>
+                                        <div class="gallery-image background-center" style="background-image: url(<?php the_field('image4'); ?>);"></div>
+                                    <?php endif ?>
                                 </div>
 
                                 <img class="gallery-image-slash d-none d-md-block" src="<?php bloginfo('template_url'); ?>/svg/trikampis.svg">
