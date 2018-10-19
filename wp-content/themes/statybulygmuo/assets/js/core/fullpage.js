@@ -80,6 +80,8 @@
     var SLIDES_NAV_LINK_SEL =   SLIDES_NAV_SEL + ' a';
     var SLIDES_ARROW =          'fp-controlArrow';
     var SLIDES_ARROW_SEL =      '.' + SLIDES_ARROW;
+    var SLIDES_PREV_CLASS =     'fp-prev';
+    var SLIDES_NEXT_CLASS =     'fp-next';
     var SLIDES_PREV =           'fp-prev visibility-hidden animated';
     var SLIDES_PREV_SEL =       '.' + SLIDES_PREV;
     var SLIDES_ARROW_PREV =     SLIDES_ARROW + ' ' + SLIDES_PREV;
@@ -2149,7 +2151,7 @@
             var section = closest(this, SECTION_SEL);
 
             /*jshint validthis:true */
-            if (hasClass(this, SLIDES_PREV)) {
+            if (hasClass(this, SLIDES_PREV_CLASS)) {
                 if(isScrollAllowed.m.left){
                     moveSlideLeft(section);
                 }
