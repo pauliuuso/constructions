@@ -80,7 +80,7 @@
                 foreach($posts as $key=>$post): setup_postdata($post)
             ?>
 
-                <div class="col-12 slide" data-anchor="sekmes-istorija-<?php echo $key ?>">
+                <div class="col-12 slide" data-loaded="false" data-anchor="sekmes-istorija-<?php echo $key ?>">
 
                         <div class="row height-100">
 
@@ -106,12 +106,9 @@
                                     <div class="gallery-text-wrapper col-12 col-md-10">
                                         <h2 class="text-big text-red text-bold js-gallery-title text-center text-md-left visibility-hidden animated"><?php the_title(); ?></h2>
                                         <div class="row">
-                                            <div class="col-8 offset-2 col-md-10 offset-md-0 gallery-text-inner-wrapper ml-lg-5 js-gallery-description visibility-hidden animated">
+                                            <div class="col-8 offset-2 col-md-11 offset-md-0 gallery-text-inner-wrapper ml-lg-5 js-gallery-description visibility-hidden animated">
                                                 <p class="gallery-beam mt-3 mt-md-5"></p>
-                                                <span class="text-medium text-red"><?php the_excerpt() ?></span>
-                                                <div class="gallery-date-wrapper ml-lg-5 js-gallery-next-year visibility-hidden animated">
-                                                    <span class="text-medium text-red"><?php the_field('year') ?></span>
-                                                </div>
+                                                <span class="text-medium text-red"><?php the_content() ?></span>
                                             </div>
                                         </div>
                                     </div>

@@ -18,22 +18,21 @@ function showSlide(element) {
     showElement($($(element).find('.js-next-story-line')), 'fadeInRight d-md-block', baseTimeout * 5);
     showElement($('.fp-next'), 'fadeInRight', baseTimeout * 7);
     showElement($('.fp-prev'), 'fadeInLeft', baseTimeout * 7);
-}
 
-$(document).ready(function() {
-    $(".js-gallery-slideshow > div:gt(0)").hide();
+    if($(element).attr('data-loaded') !== 'true') {
+        $(element).find(".js-gallery-slideshow > div:gt(0)").hide();
+        var gallery = $(element).find(".js-gallery-slideshow").first();
 
-    var galleries = $('.js-gallery-slideshow');
-
-    for(var a = 0; a < galleries.length; a++) {
-        setInterval(function(a) {
-            $(galleries[a]).find('div:first')
+        setInterval(function() {
+            $(gallery).find('div:first')
                 .fadeOut(1000)
                 .next()
                 .fadeIn(1000)
                 .end()
-                .appendTo(galleries[a]);
-        }, 3000, a);
+                .appendTo(gallery);
+        }, 3000);
     }
-});
+
+    $(element).attr('data-loaded', 'true');
+}
 

@@ -91,6 +91,11 @@ p, span, h1, h2, h3, h4, h5 {
 .text-medium {
   font-size: 26px;
 
+  @include media-breakpoint-down(lg)
+  {
+    font-size: 20px;
+  }
+
   @include media-breakpoint-down(md)
   {
     font-size: 18px;
