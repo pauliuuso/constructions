@@ -38,7 +38,7 @@
                         </div>
                         <div class="row mt-sm-5">
                             <div class="col-lg-1 text-left p-0 pt-2 pb-2 d-none d-lg-block">
-                                <div class="about-text-beam"></div>
+                                <div class="about-text-beam visibility-hidden animated js-about-beam"></div>
                             </div>
                             <div class="col-12 col-lg-11 p-0 visibility-hidden animated js-about-text-wrapper">
                                 <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.

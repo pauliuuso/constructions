@@ -8,6 +8,7 @@ function showAboutContents()
         aboutLoaded = true;
         showElement($('.js-about-title-wrapper'), 'fadeIn', baseTimeout * 3);
         showElement($('.js-about-text-wrapper'), 'fadeIn', baseTimeout * 4);
+        showElement($('.js-about-beam'), 'fadeIn', baseTimeout * 5);
         showElement($('#about-house-animated'), 'fadeIn d-lg-block', baseTimeout * 6);
         playVivusAnimation('about-house-animated', 150, '/svg/daugiabutis.svg', baseTimeout * 6);
         showElement($('#about-roof-animated'), 'fadeIn', baseTimeout * 6);

@@ -53,6 +53,11 @@
         margin-top: 180px;
         line-height: 1.7;
 
+        @include media-breakpoint-down(lg) {
+            margin-top: 150px;
+            margin-bottom: 0;
+        }
+
         @include media-breakpoint-down(md) {
             margin-top: 100px;
             margin-bottom: 0;
@@ -74,7 +79,7 @@
         padding-top: 300px;
 
         @include media-breakpoint-down(lg) {
-            padding-top: 200px;
+            padding-top: 250px;
         }
 
         @include media-breakpoint-down(md) {
@@ -96,6 +101,10 @@
             .icon {
                 width: 100px;
                 float: left;
+
+                @include media-breakpoint-down(lg) {
+                    width: 80px;
+                }
 
                 @include media-breakpoint-down(md) {
                     float: unset;
@@ -142,7 +151,7 @@
                 margin-bottom: 30px;
                 position: relative;
 
-                @include media-breakpoint-down(md) {
+                @include media-breakpoint-down(lg) {
                     height: 40px;
                     margin-bottom: 25px;
                 }
@@ -154,8 +163,8 @@
                 &.textarea {
                     height: 220px;
 
-                    @include media-breakpoint-down(md) {
-                        height: 160px;
+                    @include media-breakpoint-down(lg) {
+                        height: 150px;
                     }
                 }
 
@@ -175,6 +184,10 @@
                     z-index: 5;
                     line-height: 20px;
 
+                    @include media-breakpoint-down(lg) {
+                        font-size: 18px;
+                    }
+
                     @include media-breakpoint-down(md) {
                         font-size: 16px;
                     }
@@ -192,7 +205,7 @@
                     padding: 0 15px;
                     color: $blue;
 
-                    @include media-breakpoint-down(md) {
+                    @include media-breakpoint-down(lg) {
                         height: 40px;
                         border: 2px solid $red;
                     }
@@ -207,9 +220,10 @@
                     color: $blue;
                     resize: none;
 
-                    @include media-breakpoint-down(md) {
+                    @include media-breakpoint-down(lg) {
                         height: 130px;
                         border: 2px solid $red;
+                        padding: 5px 15px;
                     }
 
                     @include media-breakpoint-down(sm) {
@@ -238,7 +252,7 @@
                         border: 3px solid grey;
                     }
 
-                    @include media-breakpoint-down(md) {
+                    @include media-breakpoint-down(lg) {
                         font-size: 16px;
                         border: 2px solid $red;
                     }
