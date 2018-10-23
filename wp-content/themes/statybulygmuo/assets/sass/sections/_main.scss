@@ -149,8 +149,13 @@ p, span, h1, h2, h3, h4, h5 {
     color: $blue;
     text-transform: uppercase;
 
-    &.active {
-      border-bottom: solid 3px $blue;
+    &.active::after {
+      content: '';
+      width: 100%;
+      border: solid 2px $blue;
+      border-radius: 2px;
+      display: block;
+      margin-top: 5px;
     }
 
     @include media-breakpoint-down(md) {

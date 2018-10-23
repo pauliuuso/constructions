@@ -79,7 +79,9 @@
     var SLIDES_NAV_SEL =        '.' + SLIDES_NAV;
     var SLIDES_NAV_LINK_SEL =   SLIDES_NAV_SEL + ' a';
     var SLIDES_ARROW =          'fp-controlArrow';
+    var SLIDES_ARROW2 =          'fp-controlArrow2';
     var SLIDES_ARROW_SEL =      '.' + SLIDES_ARROW;
+    var SLIDES_ARROW_SEL2 =      '.' + SLIDES_ARROW2;
     var SLIDES_PREV_CLASS =     'fp-prev';
     var SLIDES_NEXT_CLASS =     'fp-next';
     var SLIDES_PREV =           'fp-prev visibility-hidden animated';
@@ -92,7 +94,7 @@
     var SLIDES_ARROW_NEXT_SEL = SLIDES_ARROW_SEL + SLIDES_NEXT_SEL;
 
     function initialise(containerSelector, options) {
-        var isLicenseValid = options && new RegExp('([\\d\\w]{8}-){3}[\\d\\w]{8}|OPEN-SOURCE-GPLV3-LICENSE').test(options.licenseKey) || document.domain.indexOf('alvarotrigo.com') > -1;
+        var isLicenseValid = true;
 
         //only once my friend!
         if(hasClass($('html'), ENABLED)){ displayWarnings(); return; }
@@ -666,7 +668,7 @@
             else if(matches(target, SECTION_NAV_TOOLTIP_SEL)){
                 tooltipTextHandler.call(target);
             }
-            else if(matches(target, SLIDES_ARROW_SEL)){
+            else if(matches(target, (SLIDES_ARROW_SEL)) || matches(target, (SLIDES_ARROW_SEL2))) {
                 slideArrowHandler.call(target, e);
             }
             else if(matches(target, SLIDES_NAV_LINK_SEL) || closest(target, SLIDES_NAV_LINK_SEL) != null){
@@ -2149,6 +2151,8 @@
         function slideArrowHandler(){
             /*jshint validthis:true */
             var section = closest(this, SECTION_SEL);
+
+            console.log($('.fp-next'));
 
             /*jshint validthis:true */
             if (hasClass(this, SLIDES_PREV_CLASS)) {

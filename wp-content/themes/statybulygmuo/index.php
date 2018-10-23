@@ -36,8 +36,11 @@
                         <div class="mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
                             <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
                         </div>
-                        <div class="row">
-                            <div class="offset-lg-1 col-12 col-lg-11 mt-2 mt-sm-5 visibility-hidden animated js-about-text-wrapper">
+                        <div class="row mt-sm-5">
+                            <div class="col-lg-1 text-left p-0 pt-2 pb-2 d-none d-lg-block">
+                                <div class="about-text-beam"></div>
+                            </div>
+                            <div class="col-12 col-lg-11 p-0 visibility-hidden animated js-about-text-wrapper">
                                 <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
                                 </p>
                             </div>
@@ -121,8 +124,8 @@
                                 </div>
 
 
-                                <div class="next-story-wrapper js-next-story-wrapper d-none animated">
-                                    <p class="text-medium text-bold">KITA ISTORIJA</p>
+                                <div class="next-story-wrapper js-next-story-wrapper d-none animated pointer fp-next fp-controlArrow2">
+                                    <p class="text-medium text-bold fp-next fp-controlArrow2">SEKANTIS</p>
                                 </div>
 
                                 <div class="next-story-line js-next-story-line d-none animated"></div>
@@ -183,17 +186,21 @@
                 <div class="contacts-right col-12 col-md-4 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="contacts-icon-wrapper">
                         <div class="row">
-                            <div class="col-12 mt-md-3">
+                            <div class="col-12">
                                 <div class="icon">
-                                    <div id="phone-icon-animated" class="phone-icon-animated"></div>
+                                    <div class="animated js-email-icon visibility-hidden">
+                                        <img src="<?php bloginfo('template_url'); ?>/svg/mail_icon.svg">
+                                    </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-phone-icon-text">
                                     <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 mt-md-3">
                                 <div class="icon">
-                                    <div id="email-icon-animated" class="email-icon-animated"></div>
+                                    <div class="animated js-phone-icon visibility-hidden">
+                                        <img src="<?php bloginfo('template_url'); ?>/svg/phone_icon.svg">
+                                    </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-email-icon-text">
                                     <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
