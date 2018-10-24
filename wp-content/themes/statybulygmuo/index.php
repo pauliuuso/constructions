@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 col-sm-2 col-lg-6">
+                <div class="col-4 col-sm-2 col-lg-6 offset-xl-1 col-xl-5">
                     <div id="about-house-animated" class="about-house-animated d-none animated"></div>
                     <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-lg-none"></div>
                 </div>

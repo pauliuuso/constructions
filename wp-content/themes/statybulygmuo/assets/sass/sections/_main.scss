@@ -13,7 +13,7 @@ p, span, h1, h2, h3, h4, h5 {
 }
 
 .text-super-big {
-  font-size: 85px;
+  font-size: 75px;
 
   @include media-breakpoint-down(lg) {
     font-size: 50px;
