@@ -148,13 +148,13 @@
 
             <div class="menu-wrapper js-contacts-menu-wrapper d-none animated">
                 <a href="#section-about">
-                    <h4 class="mr-md-3 pointer pb-1">Apie</h4>
+                    <h4 class="pointer p-0">Apie</h4>
                 </a>
                 <a href="#section-products">
-                    <h4 class="mr-md-3">Sėkmės istorijos</h4>
+                    <h4 class="mr-md-3 p-0">Sėkmės istorijos</h4>
                 </a>
                 <a href="#section-contacts">
-                    <h4 class="pointer active">Kontaktai</h4>
+                    <h4 class="pointer pb-1 pb-0 active">Kontaktai</h4>
                 </a>
             </div>
 
@@ -167,10 +167,10 @@
                     <div class="contacts-text-wrapper">
 
                         <div class="contacts-title-wrapper js-contacts-title-wrapper visibility-hidden animated">
-                            <h4 class="text-super-big text-bold text-red">Susisiekite su mumis!</h4>
+                            <h4 class="contacts-title text-bold text-red">Susisiekite su mumis!</h4>
                         </div>
 
-                        <div class="contacts-form-wrapper js-contacts-form-wrapper visibility-hidden animated">
+                        <div class="contacts-form-wrapper js-contacts-form-wrapper visibility-hidden animated mt-3">
                             <?php
                             $content_post = get_page_by_path( 'contacts' );
                             $content = $content_post->post_content;
@@ -193,7 +193,7 @@
                                     </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-phone-icon-text">
-                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
+                                    <p class="pt-2 pt-lg-3 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
                                 </div>
                             </div>
                             <div class="col-12 mt-md-3">
@@ -203,7 +203,7 @@
                                     </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-email-icon-text">
-                                    <p class="text-bigger pt-2 pt-lg-4 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
+                                    <p class="pt-2 pt-lg-3 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,7 @@
             </div>
 
             <div class="contacts-footer-wrapper js-contacts-footer-wrapper d-none animated">
-                <p class="text-medium p-0 m-0 text-bold">KONTAKTAI</p>
+                <p class="p-0 m-0 text-bold">KONTAKTAI</p>
             </div>
 
         </section>

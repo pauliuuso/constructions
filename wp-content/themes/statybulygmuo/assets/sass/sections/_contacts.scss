@@ -6,7 +6,6 @@
     height: 100%;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 100px;
 
     @include media-breakpoint-down(lg) {
         padding-top: 0;
@@ -27,10 +26,6 @@
         height: 100px;
         width: 1px;
         background: $blue;
-
-        @include media-breakpoint-down(lg) {
-            height: 40px;
-        }
     }
 
     .contacts-bottom-left-line {
@@ -38,7 +33,7 @@
         left: 0;
         bottom: 78px;
         height: 1px;
-        width: 325px;
+        width: 315px;
         background: $blue;
 
         @include media-breakpoint-down(sm)
@@ -50,8 +45,16 @@
 
     .contacts-text-wrapper {
         z-index: 50;
-        margin-top: 140px;
+        margin-top: 210px;
+        margin-left: 200px;
         line-height: 1.7;
+        width: 480px;
+
+        @include media-breakpoint-down(lg) {
+            margin-top: 180px;
+            margin-left: 120px;
+            width: 430px;
+        }
 
         @include media-breakpoint-down(md) {
             margin-top: 100px;
@@ -63,6 +66,15 @@
         }
 
         .contacts-title-wrapper {
+
+            .contacts-title {
+                font-size: 48px;
+
+                @include media-breakpoint-down(lg) {
+                    font-size: 40px;
+                }
+            }
+
             @include media-breakpoint-down(sm)
             {
                 padding: 0 30px;
@@ -71,14 +83,14 @@
     }
 
     .contacts-right {
-        padding-top: 300px;
+        margin-top: 370px;
 
         @include media-breakpoint-down(lg) {
-            padding-top: 250px;
+            margin-top: 320px;
         }
 
         @include media-breakpoint-down(md) {
-            padding-top: 130px;
+            margin-top: 130px;
         }
 
         @include media-breakpoint-down(sm) {
@@ -116,6 +128,11 @@
 
             .text {
                 float: left;
+                font-size: 48px;
+
+                @include  media-breakpoint-down(lg) {
+                    font-size: 36px;
+                }
 
                 @include media-breakpoint-down(md) {
                     width: 100%;
@@ -147,7 +164,6 @@
                 position: relative;
 
                 @include media-breakpoint-down(lg) {
-                    height: 40px;
                     margin-bottom: 25px;
                 }
 
@@ -156,10 +172,10 @@
                 }
 
                 &.textarea {
-                    height: 220px;
+                    height: 200px;
 
                     @include media-breakpoint-down(lg) {
-                        height: 150px;
+                        height: 190px;
                     }
                 }
 
@@ -201,8 +217,7 @@
                     color: $blue;
 
                     @include media-breakpoint-down(lg) {
-                        height: 40px;
-                        border: 2px solid $red;
+                        height: 45px;
                     }
                 }
 
@@ -211,13 +226,12 @@
                     border-radius: 10px;
                     width: 100%;
                     padding: 15px;
-                    height: 200px;
+                    height: 180px;
                     color: $blue;
                     resize: none;
 
                     @include media-breakpoint-down(lg) {
-                        height: 130px;
-                        border: 2px solid $red;
+                        height: 160px;
                         padding: 5px 15px;
                     }
 
@@ -238,7 +252,7 @@
                     border-radius: 10px;
                     text-transform: uppercase;
                     text-align: center;
-                    font-size: 27px;
+                    font-size: 21px;
                     color: $red;
                     cursor: pointer;
 
@@ -249,7 +263,6 @@
 
                     @include media-breakpoint-down(lg) {
                         font-size: 16px;
-                        border: 2px solid $red;
                     }
 
                     @include media-breakpoint-down(sm) {
@@ -272,6 +285,7 @@
         left: 335px;
         background: white;
         z-index: 10;
+        font-size: 23px;
 
         @include media-breakpoint-down(sm){
             left: 100px;
