@@ -16,13 +16,13 @@
 
             <div class="menu-wrapper js-about-menu-wrapper d-none animated">
                 <a href="#section-about">
-                    <h4 class="mr-md-3 pointer pb-1 active js-element">Apie</h4>
+                    <h4 class="pointer p-0 pb-1 active js-element">Apie</h4>
                 </a>
                 <a href="#section-products">
-                    <h4 class="mr-md-3 s-element">Sėkmės istorijos</h4>
+                    <h4 class="js-element p-0">Sėkmės istorijos</h4>
                 </a>
                 <a href="#section-contacts">
-                    <h4 class="pointer js-element">Kontaktai</h4>
+                    <h4 class="pointer js-element p-0">Kontaktai</h4>
                 </a>
             </div>
 
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="about-footer-wrapper js-about-footer-wrapper d-none animated">
-                    <p class="text-medium p-0 m-0 text-bold">APIE</p>
+                    <p class="p-0 m-0 text-bold">APIE</p>
                 </div>
             </div>
 
@@ -64,13 +64,13 @@
 
             <div class="menu-wrapper js-gallery-menu-wrapper visibility-hidden animated">
                 <a href="#section-about">
-                    <h4 class="mr-md-3 pointer pb-1 js-element">Apie</h4>
+                    <h4 class="pointer pb-1 js-element p-0">Apie</h4>
                 </a>
                 <a href="#section-products">
-                    <h4 class="mr-md-3 js-element active">Sėkmės istorijos</h4>
+                    <h4 class="js-element active p-0">Sėkmės istorijos</h4>
                 </a>
                 <a href="#section-contacts">
-                    <h4 class="pointer js-element">Kontaktai</h4>
+                    <h4 class="pointer js-element p-0">Kontaktai</h4>
                 </a>
             </div>
 
@@ -113,11 +113,11 @@
 
                                 <div class="row">
                                     <div class="gallery-text-wrapper col-12 col-md-10">
-                                        <h2 class="text-big text-red text-bold js-gallery-title text-center text-md-left visibility-hidden animated"><?php the_title(); ?></h2>
+                                        <h2 class="gallery-title text-red text-bold js-gallery-title text-center text-md-left visibility-hidden animated"><?php the_title(); ?></h2>
                                         <div class="row">
-                                            <div class="col-8 offset-2 col-md-11 offset-md-0 gallery-text-inner-wrapper ml-lg-5 js-gallery-description visibility-hidden animated">
-                                                <p class="gallery-beam mt-3 mt-md-5"></p>
-                                                <span class="text-medium text-red"><?php the_content() ?></span>
+                                            <div class="col-8 col-md-10 gallery-text-inner-wrapper js-gallery-description visibility-hidden animated p-0">
+                                                <p class="gallery-beam mt-4 mt-xl-5 mb-1 mb-xl-2"></p>
+                                                <span class="gallery-description text-red"><?php the_content() ?></span>
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +125,7 @@
 
 
                                 <div class="next-story-wrapper js-next-story-wrapper d-none animated pointer fp-next fp-controlArrow2">
-                                    <p class="text-medium text-bold fp-next fp-controlArrow2">SEKANTIS</p>
+                                    <p class="text-bold fp-next fp-controlArrow2 m-0">SEKANTIS</p>
                                 </div>
 
                                 <div class="next-story-line js-next-story-line d-none animated"></div>

@@ -73,18 +73,10 @@
                 height: 100px;
                 width: 1px;
                 background: $blue;
-
-                @include media-breakpoint-down(lg) {
-                    height: 40px;
-                }
             }
 
             .gallery-text-wrapper {
-                margin-top: 300px;
-
-                @include media-breakpoint-down(lg) {
-                    margin-top: 250px;
-                }
+                margin-top: 320px;
 
                 @include media-breakpoint-down(md) {
                     margin-top: 130px;
@@ -94,22 +86,54 @@
                     margin-top: 0;
                 }
 
+                .gallery-title {
+                    font-size: 48px;
+
+                    @include media-breakpoint-down(lg) {
+                        font-size: 32px;
+                    }
+                }
+
+                .gallery-text-inner-wrapper {
+                    margin-left: 80px;
+
+                    @include media-breakpoint-down(lg) {
+                        margin-left: 50px;
+                    }
+                }
+
                 .gallery-beam {
-                    width: 140px;
-                    border: 5px solid $red;
-                    border-radius: 5px;
+                    width: 150px;
+                    border: 2px solid $red;
+                    border-radius: 2px;
 
                     @include media-breakpoint-down(sm) {
                         width: 60px;
                         border: 1.5px solid $red;
                     }
                 }
+
+                .gallery-description {
+                    font-size: 21px;
+
+                    @include media-breakpoint-down(lg) {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
             }
 
             .next-story-wrapper {
                 position: absolute;
+                bottom: 55px;
                 right: 335px;
-                bottom: 60px;
+                background: white;
+                z-index: 10;
+                font-size: 30px;
+
+                @include media-breakpoint-down(lg) {
+                    font-size: 23px;
+                }
 
                 @include media-breakpoint-down(md) {
                     bottom: 33px;
@@ -120,14 +144,13 @@
             .next-story-line {
                 position: absolute;
                 right: 0;
-                bottom: 95px;
-                width: 325px;
+                bottom: 75px;
+                width: 315px;
                 background: $blue;
                 height: 1px;
 
-                @include media-breakpoint-down(md) {
-                    bottom: 65px;
-                    width: 240px;
+                @include media-breakpoint-down(lg) {
+                    bottom: 72px;
                 }
             }
         }

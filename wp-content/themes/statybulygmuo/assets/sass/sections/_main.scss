@@ -136,18 +136,16 @@ p, span, h1, h2, h3, h4, h5 {
   top: 110px;
   z-index: 2;
 
-  @include media-breakpoint-down(lg) {
-    top: 40px;
-
-    h4 {
-      font-size: 16px;
-    }
-  }
-
   h4 {
     display: inline-block;
     color: $blue;
     text-transform: uppercase;
+    margin-left: 36px;
+    font-size: 23px;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 23px;
+    }
 
     &.active::after {
       content: '';
@@ -156,6 +154,10 @@ p, span, h1, h2, h3, h4, h5 {
       border-radius: 2px;
       display: block;
       margin-top: 5px;
+
+      @include media-breakpoint-down(lg) {
+        border: solid 1px $blue;
+      }
     }
 
     @include media-breakpoint-down(md) {
@@ -178,13 +180,13 @@ p, span, h1, h2, h3, h4, h5 {
 .logo-wrapper {
   position: absolute;
   background: white;
-  top: 110px;
+  top: 70px;
   left: 80px;
   width: 150px;
 
   @include media-breakpoint-down(lg) {
-    top: 40px;
-    width: 120px;
+    top: 85px;
+    width: 100px;
   }
 
   @include media-breakpoint-down(sm) {
@@ -201,12 +203,17 @@ p, span, h1, h2, h3, h4, h5 {
   }
 
   &.fp-prev {
-    width: 70px;
-    height: 115px;
     left:80px;
     background: url("svg/left_arrow.svg") no-repeat !important;
     border: none;
     display: none;
+    width: 65px;
+    height: 110px;
+
+    @include media-breakpoint-down(lg) {
+      width: 40px;
+      height: 66px;
+    }
 
     @include media-breakpoint-down(md) {
       width: 50px;
@@ -222,12 +229,17 @@ p, span, h1, h2, h3, h4, h5 {
   }
 
   &.fp-next {
-    width: 70px;
-    height: 115px;
     right:80px;
     background: url("svg/right_arrow.svg") no-repeat !important;
     border: none;
     z-index: 11;
+    width: 65px;
+    height: 110px;
+
+    @include media-breakpoint-down(lg) {
+      width: 40px;
+      height: 66px;
+    }
 
     @include media-breakpoint-down(md) {
       width: 50px;
