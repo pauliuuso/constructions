@@ -26,6 +26,11 @@
         height: 100px;
         width: 1px;
         background: $blue;
+
+        @include media-breakpoint-down(md) {
+            right: 81px;
+            height: 70px;
+        }
     }
 
     .contacts-bottom-left-line {
@@ -35,6 +40,11 @@
         height: 1px;
         width: 315px;
         background: $blue;
+
+        @include media-breakpoint-down(md) {
+            width: 225px;
+            bottom: 45px;
+        }
 
         @include media-breakpoint-down(sm)
         {
@@ -57,8 +67,10 @@
         }
 
         @include media-breakpoint-down(md) {
-            margin-top: 100px;
+            margin-top: 160px;
             margin-bottom: 0;
+            margin-left: 0;
+            width: 360px;
         }
 
         @include media-breakpoint-down(sm) {
@@ -72,6 +84,10 @@
 
                 @include media-breakpoint-down(lg) {
                     font-size: 40px;
+                }
+
+                @include media-breakpoint-down(md) {
+                    font-size: 34px;
                 }
             }
 
@@ -90,7 +106,7 @@
         }
 
         @include media-breakpoint-down(md) {
-            margin-top: 130px;
+            margin-top: 300px;
         }
 
         @include media-breakpoint-down(sm) {
@@ -114,10 +130,7 @@
                 }
 
                 @include media-breakpoint-down(md) {
-                    float: unset;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
+                    width: 62px;
                 }
 
                 @include media-breakpoint-down(sm) {
@@ -134,10 +147,8 @@
                     font-size: 36px;
                 }
 
-                @include media-breakpoint-down(md) {
-                    width: 100%;
-                    float: unset;
-                    text-align: center;
+                @include  media-breakpoint-down(md) {
+                    font-size: 27px;
                 }
 
                 @include media-breakpoint-down(sm) {
@@ -167,6 +178,11 @@
                     margin-bottom: 25px;
                 }
 
+                @include media-breakpoint-down(md) {
+                    height: 40px;
+                    margin-bottom: 20px;
+                }
+
                 @include media-breakpoint-down(sm) {
                     margin-bottom: 20px;
                 }
@@ -176,6 +192,10 @@
 
                     @include media-breakpoint-down(lg) {
                         height: 190px;
+                    }
+
+                    @include media-breakpoint-down(md) {
+                        height: 130px;
                     }
                 }
 
@@ -200,7 +220,7 @@
                     }
 
                     @include media-breakpoint-down(md) {
-                        font-size: 16px;
+                        font-size: 13px;
                     }
 
                     @include media-breakpoint-down(sm) {
@@ -219,6 +239,10 @@
                     @include media-breakpoint-down(lg) {
                         height: 45px;
                     }
+
+                    @include media-breakpoint-down(md) {
+                        height: 40px;
+                    }
                 }
 
                 textarea {
@@ -233,6 +257,10 @@
                     @include media-breakpoint-down(lg) {
                         height: 160px;
                         padding: 5px 15px;
+                    }
+
+                    @include media-breakpoint-down(md) {
+                        height: 100px;
                     }
 
                     @include media-breakpoint-down(sm) {
@@ -265,6 +293,10 @@
                         font-size: 16px;
                     }
 
+                    @include media-breakpoint-down(md) {
+                        font-size: 13px;
+                    }
+
                     @include media-breakpoint-down(sm) {
                         left: 0;
                         bottom: 0;
@@ -286,6 +318,12 @@
         background: white;
         z-index: 10;
         font-size: 23px;
+
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+            bottom: 34px;
+            left: 245px;
+        }
 
         @include media-breakpoint-down(sm){
             left: 100px;

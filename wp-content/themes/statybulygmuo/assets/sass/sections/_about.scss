@@ -17,6 +17,11 @@
         height: 100px;
         width: 1px;
         background: $blue;
+
+        @include media-breakpoint-down(md) {
+            right: 81px;
+            height: 70px;
+        }
     }
 
     .about-bottom-left-line {
@@ -26,6 +31,11 @@
         height: 1px;
         width: 325px;
         background: $blue;
+
+        @include media-breakpoint-down(md) {
+            bottom: 46px;
+            width: 225px;
+        }
 
         @include media-breakpoint-down(sm)
         {
@@ -46,7 +56,7 @@
 
         @include media-breakpoint-down(md)
         {
-            margin-top: 150px;
+            margin-top: 270px;
         }
 
         @include media-breakpoint-down(sm)
@@ -95,6 +105,12 @@
         @include media-breakpoint-down(lg) {
             width: 500px;
         }
+
+        @include media-breakpoint-down(lg) {
+            right: 0;
+            width: 400px;
+            bottom: -10px;
+        }
     }
 
     .about-roof-animated {
@@ -128,6 +144,12 @@
         @include media-breakpoint-down(lg) {
             font-size: 20px;
             bottom: 62px;
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+            bottom: 34px;
+            left: 245px;
         }
 
         @include media-breakpoint-down(sm){

@@ -31,16 +31,16 @@
 
             <div class="row height-100">
 
-                <div class="col-8 col-sm-10 col-lg-6">
+                <div class="col-8 col-sm-10 col-md-6">
                     <div class="about-text-wrapper">
                         <div class="mt-1 visibility-hidden animated about-title-wrapper js-about-title-wrapper">
                             <h2 class="text-super-big text-bold text-red">Statybų ekspertai</h2>
                         </div>
-                        <div class="row mt-sm-5">
-                            <div class="col-lg-1 text-left p-0 pt-2 pb-2 d-none d-lg-block">
+                        <div class="row mt-sm-4 mt-lg-5">
+                            <div class="col-md-1 text-left p-0 pt-2 pb-2 d-none d-md-block">
                                 <div class="about-text-beam visibility-hidden animated js-about-beam"></div>
                             </div>
-                            <div class="col-12 col-lg-11 p-0 visibility-hidden animated js-about-text-wrapper">
+                            <div class="col-12 col-md-11 p-0 visibility-hidden animated js-about-text-wrapper">
                                 <p class="text-bigger text-red text-font-light fadeIn animated about-text m-0">Statybų ekspertų komanda kokybiškai įgyvendins Jūsų viziją nuo pamatų iki naudojimui pritaikytos erdvės. Teikiame įvairias su statybomis susiijusias paslaugas.
                                 </p>
                             </div>
@@ -48,9 +48,9 @@
                     </div>
                 </div>
 
-                <div class="col-4 col-sm-2 col-lg-6 offset-xl-1 col-xl-5">
+                <div class="col-4 col-sm-2 col-md-6 offset-xl-1 col-xl-5">
                     <div id="about-house-animated" class="about-house-animated d-none animated"></div>
-                    <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-lg-none"></div>
+                    <div id="about-roof-animated" class="about-roof-animated visibility-hidden d-md-none"></div>
                 </div>
 
                 <div class="about-footer-wrapper js-about-footer-wrapper d-none animated">
@@ -113,10 +113,10 @@
 
                                 <div class="row">
                                     <div class="gallery-text-wrapper col-12 col-md-10">
-                                        <h2 class="gallery-title text-red text-bold js-gallery-title text-center text-md-left visibility-hidden animated"><?php the_title(); ?></h2>
+                                        <h2 class="m-0 gallery-title text-red text-bold js-gallery-title text-center text-md-left visibility-hidden animated"><?php the_title(); ?></h2>
                                         <div class="row">
                                             <div class="col-8 col-md-10 gallery-text-inner-wrapper js-gallery-description visibility-hidden animated p-0">
-                                                <p class="gallery-beam mt-4 mt-xl-5 mb-1 mb-xl-2"></p>
+                                                <p class="gallery-beam"></p>
                                                 <span class="gallery-description text-red"><?php the_content() ?></span>
                                             </div>
                                         </div>
@@ -163,7 +163,7 @@
 
             <div class="row">
 
-                <div class="contacts-left col-12 col-md-8 col-lg-7 col-xl-6">
+                <div class="contacts-left col-12 col-md-6 col-lg-7 col-xl-6">
                     <div class="contacts-text-wrapper">
 
                         <div class="contacts-title-wrapper js-contacts-title-wrapper visibility-hidden animated">
@@ -183,7 +183,7 @@
                     </div>
                 </div>
 
-                <div class="contacts-right col-12 col-md-4 col-lg-5 col-xl-5 offset-xl-1">
+                <div class="contacts-right col-12 col-md-6 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="contacts-icon-wrapper">
                         <div class="row">
                             <div class="col-12">
@@ -193,7 +193,7 @@
                                     </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-phone-icon-text">
-                                    <p class="pt-2 pt-lg-3 pl-3 pl-md-0 pl-lg-3">+3706 3000000</p>
+                                    <p class="pt-2 pt-lg-3 pl-3 pl-lg-3">+3706 3000000</p>
                                 </div>
                             </div>
                             <div class="col-12 mt-md-3">
@@ -203,7 +203,7 @@
                                     </div>
                                 </div>
                                 <div class="text visibility-hidden animated js-email-icon-text">
-                                    <p class="pt-2 pt-lg-3 pl-3 pl-md-0 pl-lg-3">info@statybuekspertai.lt</p>
+                                    <p class="pt-2 pt-lg-3 pl-3 pl-lg-3">info@statybuekspertai.lt</p>
                                 </div>
                             </div>
                         </div>
