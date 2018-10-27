@@ -14,9 +14,10 @@ function showAboutContents()
         showElement($('#about-roof-animated'), 'fadeIn', baseTimeout * 6);
         playVivusAnimation('about-roof-animated', 150, '/svg/fragmentas.svg', baseTimeout * 6);
         showElement($('.js-about-logo-wrapper'), 'fadeInDown d-md-block', baseTimeout * 7);
+        showElement($('.js-about-logo-wrapper-mobile'), 'fadeInDown', baseTimeout * 7);
         showElement($('.js-about-menu-wrapper'), 'fadeInDown d-md-block', baseTimeout * 8);
         showElement($('.js-about-top-line'), 'fadeInDown d-md-block', baseTimeout * 8);
-        showElement($('.js-about-footer-wrapper'), 'fadeInUp d-md-block', baseTimeout * 9);
-        showElement($('.js-about-bottom-left-line'), 'fadeInLeft d-md-block', baseTimeout * 9);
+        showElement($('.js-about-footer-wrapper'), 'fadeInUp', baseTimeout * 9);
+        showElement($('.js-about-bottom-left-line'), 'fadeInLeft', baseTimeout * 9);
     }
 }

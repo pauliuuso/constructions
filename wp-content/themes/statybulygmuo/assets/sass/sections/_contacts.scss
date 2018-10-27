@@ -74,7 +74,8 @@
         }
 
         @include media-breakpoint-down(sm) {
-            margin-top: 15px;
+            margin-top: 90px;
+            width: auto;
         }
 
         .contacts-title-wrapper {
@@ -88,6 +89,10 @@
 
                 @include media-breakpoint-down(md) {
                     font-size: 34px;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 28px;
                 }
             }
 
@@ -110,9 +115,7 @@
         }
 
         @include media-breakpoint-down(sm) {
-            position: absolute;
-            bottom: 40px;
-            padding-top: 0;
+            margin-top: 25px;
         }
 
         .contacts-icon-wrapper {
@@ -152,9 +155,7 @@
                 }
 
                 @include media-breakpoint-down(sm) {
-                    width: auto;
-                    float: left;
-                    text-align: left;
+                    font-size: 16px;
                 }
             }
         }
@@ -184,7 +185,8 @@
                 }
 
                 @include media-breakpoint-down(sm) {
-                    margin-bottom: 20px;
+                    height: 35px;
+                    margin-bottom: 15px;
                 }
 
                 &.textarea {
@@ -196,6 +198,10 @@
 
                     @include media-breakpoint-down(md) {
                         height: 130px;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        height: 140px;
                     }
                 }
 
@@ -243,6 +249,11 @@
                     @include media-breakpoint-down(md) {
                         height: 40px;
                     }
+
+                    @include media-breakpoint-down(sm) {
+                        height: 35px;
+                        font-size: 12px;
+                    }
                 }
 
                 textarea {
@@ -264,8 +275,8 @@
                     }
 
                     @include media-breakpoint-down(sm) {
-                        height: 120px;
-                        border: 2px solid $red;
+                        height: 110px;
+                        font-size: 12px;
                     }
                 }
 

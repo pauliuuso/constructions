@@ -14,8 +14,8 @@ function showSlide(element) {
     showElement($($(element).find('.js-gallery-menu-top-line')), 'fadeInDown d-md-block', baseTimeout);
     showElement($($(element).find('.js-gallery-description')), 'fadeInLeft', baseTimeout * 2);
     showElement($($(element).find('.js-gallery-next-year')), 'fadeInRight', baseTimeout * 3);
-    showElement($($(element).find('.js-next-story-wrapper')), 'fadeInRight d-md-block', baseTimeout * 4);
-    showElement($($(element).find('.js-next-story-line')), 'fadeInRight d-md-block', baseTimeout * 5);
+    showElement($($(element).find('.js-next-story')), 'fadeInRight', baseTimeout * 4);
+    showElement($($(element).find('.js-next-story-line')), 'fadeInRight', baseTimeout * 5);
     showElement($('.fp-next'), 'fadeInRight', baseTimeout * 7);
     showElement($('.fp-prev'), 'fadeInLeft', baseTimeout * 7);
 
